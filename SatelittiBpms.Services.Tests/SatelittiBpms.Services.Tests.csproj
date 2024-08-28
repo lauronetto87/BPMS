@@ -1,0 +1,177 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\TaskServiceTest\formContent.json" />
+    <None Remove="Resources\TaskServiceTest\formContentExpected.json" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_allTasksConnected.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_endEventWithoutIncoming.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_endEventWithoutIncomingAndName.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_endEventWithoutIncomingAndNameAndId.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayOutgoingNotHaveAssociation.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayOutgoingNotHaveAssociationAndName.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayOutgoingNotHaveSequenceFlow.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutIncoming.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutIncomingAndName.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutIncomingAndNameAndId.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutOutgoing.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutOutgoingAndName.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutOutgoingAndNameAndId.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutIncoming.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutIncomingAndName.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutIncomingAndNameAndId.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutOutgoing.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutOutgoingAndName.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutOutgoingAndNameAndId.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_ssignIntegrationTaskWithoutIncoming.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_ssignIntegrationTaskWithoutOutgoing.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_ssignIntegrationTaskWithTwoOutgoing.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_startEventWithoutOutgoing.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutIncoming.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutIncomingAndName.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutIncomingAndNameAndId.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutOutgoing.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutOutgoingAndName.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutOutgoingAndNameAndId.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_withMoreThanOneStartEvent.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_withMoreThanOneStartEventPath.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_withoutEndEvent.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\diagramTest_withoutStartEvent.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryId.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryIdAndName.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryIdAndNameAndId.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryType.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryTypeAndName.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryTypeAndNameId.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\sendTaskTest_withRequesterDestinatary.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\sendTaskTest_withRoleDestinatary.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\sendTaskTest_withTwoOutgoing.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\startTest_withStartEvent.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorAssocieted.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorId.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorIdAndName.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorIdAndNameAndId.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorTypeAssocieted.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorTypeAssocietedAndName.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorTypeAssocietedAndNameAndId.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionAssocieted.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionAssocietedAndName.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionAssocietedAndNameAndId.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionsAssocieted.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionsAssocietedAndName.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionsAssocietedAndNameAndId.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withoutRoleAssocieted.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withRequesterExecutorAndOptionAssocieted.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withRoleExecutorAndOptionAssocieted.bpmn" />
+    <None Remove="Resources\WorkflowValidationServiceTest\userTaskTest_withTwoOutgoing.bpmn" />
+    <None Remove="Resources\XmlDiagramServiceTest\xmlServiceTest_compleDiagram.bpmn" />
+    <None Remove="Resources\XmlDiagramServiceTest\xmlServiceTest_diagramWithGateway.bpmn" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\TaskServiceTest\formContent.json" />
+    <EmbeddedResource Include="Resources\TaskServiceTest\formContentExpected.json" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_allTasksConnected.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_endEventWithoutIncoming.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_endEventWithoutIncomingAndName.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_endEventWithoutIncomingAndNameAndId.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayOutgoingNotHaveSequenceFlow.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayOutgoingNotHaveAssociationAndName.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayOutgoingNotHaveAssociation.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutIncoming.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutIncomingAndName.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutIncomingAndNameAndId.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutOutgoing.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutOutgoingAndName.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutOutgoingAndNameAndId.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutIncoming.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutIncomingAndName.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutIncomingAndNameAndId.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutOutgoing.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutOutgoingAndName.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutOutgoingAndNameAndId.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_withMoreThanOneStartEventPath.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_startEventWithoutOutgoing.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutIncoming.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutIncomingAndName.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutIncomingAndNameAndId.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutOutgoing.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutOutgoingAndName.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutOutgoingAndNameAndId.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_withMoreThanOneStartEvent.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_withoutEndEvent.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_withoutStartEvent.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryId.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryIdAndName.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryIdAndNameAndId.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryType.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryTypeAndName.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryTypeAndNameId.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\sendTaskTest_withRequesterDestinatary.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\sendTaskTest_withRoleDestinatary.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_ssignIntegrationTaskWithoutOutgoing.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_ssignIntegrationTaskWithoutIncoming.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorId.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorIdAndName.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorIdAndNameAndId.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorTypeAssocieted.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorTypeAssocietedAndName.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorTypeAssocietedAndNameAndId.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionAssocieted.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionAssocietedAndName.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionAssocietedAndNameAndId.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionsAssocieted.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionsAssocietedAndName.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionsAssocietedAndNameAndId.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\userTaskTest_withRequesterExecutorAndOptionAssocieted.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\sendTaskTest_withTwoOutgoing.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\diagramTest_ssignIntegrationTaskWithTwoOutgoing.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\userTaskTest_withTwoOutgoing.bpmn" />
+    <EmbeddedResource Include="Resources\WorkflowValidationServiceTest\userTaskTest_withRoleExecutorAndOptionAssocieted.bpmn" />
+    <EmbeddedResource Include="Resources\XmlDiagramServiceTest\xmlServiceTest_compleDiagram.bpmn" />
+    <EmbeddedResource Include="Resources\XmlDiagramServiceTest\xmlServiceTest_diagramWithGateway.bpmn" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SatelittiBpms.Data\SatelittiBpms.Data.csproj" />
+    <ProjectReference Include="..\SatelittiBpms.Repository\SatelittiBpms.Repository.csproj" />
+    <ProjectReference Include="..\SatelittiBpms.Services\SatelittiBpms.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

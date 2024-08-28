@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="diagramTest_activitySendEmailWithCustomEmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diagramTest_activitySendEmailWithCustomEmail.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_allTasksConnected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_allTasksConnected.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_endEventWithoutIncoming" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_endEventWithoutIncoming.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_endEventWithoutIncomingAndName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_endEventWithoutIncomingAndName.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_endEventWithoutIncomingAndNameAndId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_endEventWithoutIncomingAndNameAndId.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_exclusiveGatewayOutgoingNotHaveAssociation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayOutgoingNotHaveAssociation.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_exclusiveGatewayOutgoingNotHaveAssociationAndName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayOutgoingNotHaveAssociationAndName.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_exclusiveGatewayOutgoingNotHaveSequenceFlow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayOutgoingNotHaveSequenceFlow.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_exclusiveGatewayWithoutIncoming" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutIncoming.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_exclusiveGatewayWithoutIncomingAndName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutIncomingAndName.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_exclusiveGatewayWithoutIncomingAndNameAndId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutIncomingAndNameAndId.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_exclusiveGatewayWithoutOutgoing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutOutgoing.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_exclusiveGatewayWithoutOutgoingAndName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutOutgoingAndName.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_exclusiveGatewayWithoutOutgoingAndNameAndId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_exclusiveGatewayWithoutOutgoingAndNameAndId.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_sendTaskWithoutIncoming" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutIncoming.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_sendTaskWithoutIncomingAndName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutIncomingAndName.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_sendTaskWithoutIncomingAndNameAndId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutIncomingAndNameAndId.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_sendTaskWithoutOutgoing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutOutgoing.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_sendTaskWithoutOutgoingAndName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutOutgoingAndName.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_sendTaskWithoutOutgoingAndNameAndId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_sendTaskWithoutOutgoingAndNameAndId.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_ssignIntegrationTaskWithoutIncoming" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_ssignIntegrationTaskWithoutIncoming.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_ssignIntegrationTaskWithoutOutgoing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_ssignIntegrationTaskWithoutOutgoing.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_ssignIntegrationTaskWithTwoOutgoing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_ssignIntegrationTaskWithTwoOutgoing.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_startEventWithoutOutgoing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_startEventWithoutOutgoing.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_userTaskWithoutIncoming" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutIncoming.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_userTaskWithoutIncomingAndName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutIncomingAndName.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_userTaskWithoutIncomingAndNameAndId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutIncomingAndNameAndId.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_userTaskWithoutOutgoing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutOutgoing.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_userTaskWithoutOutgoingAndName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutOutgoingAndName.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_userTaskWithoutOutgoingAndNameAndId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_userTaskWithoutOutgoingAndNameAndId.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_withMoreThanOneStartEvent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_withMoreThanOneStartEvent.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_withMoreThanOneStartEventPath" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_withMoreThanOneStartEventPath.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_withoutEndEvent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_withoutEndEvent.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="diagramTest_withoutStartEvent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\diagramTest_withoutStartEvent.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="formContent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TaskServiceTest\formContent.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="formContentExpected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TaskServiceTest\formContentExpected.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sendTaskTest_withoutDestinataryId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryId.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sendTaskTest_withoutDestinataryIdAndName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryIdAndName.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sendTaskTest_withoutDestinataryIdAndNameAndId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryIdAndNameAndId.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sendTaskTest_withoutDestinataryType" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryType.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sendTaskTest_withoutDestinataryTypeAndName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryTypeAndName.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sendTaskTest_withoutDestinataryTypeAndNameId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\sendTaskTest_withoutDestinataryTypeAndNameId.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sendTaskTest_withRequesterDestinatary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\sendTaskTest_withRequesterDestinatary.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sendTaskTest_withRoleDestinatary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\sendTaskTest_withRoleDestinatary.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sendTaskTest_withTwoOutgoing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\sendTaskTest_withTwoOutgoing.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userTaskTest_withoutExecutorId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorId.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userTaskTest_withoutExecutorIdAndName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorIdAndName.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userTaskTest_withoutExecutorIdAndNameAndId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorIdAndNameAndId.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userTaskTest_withoutExecutorTypeAssocieted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorTypeAssocieted.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userTaskTest_withoutExecutorTypeAssocietedAndName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorTypeAssocietedAndName.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userTaskTest_withoutExecutorTypeAssocietedAndNameAndId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\userTaskTest_withoutExecutorTypeAssocietedAndNameAndId.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userTaskTest_withoutOptionAssocieted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionAssocieted.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userTaskTest_withoutOptionAssocietedAndName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionAssocietedAndName.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userTaskTest_withoutOptionAssocietedAndNameAndId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionAssocietedAndNameAndId.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userTaskTest_withoutOptionsAssocieted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionsAssocieted.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userTaskTest_withoutOptionsAssocietedAndName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionsAssocietedAndName.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userTaskTest_withoutOptionsAssocietedAndNameAndId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\userTaskTest_withoutOptionsAssocietedAndNameAndId.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userTaskTest_withRequesterExecutorAndOptionAssocieted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\userTaskTest_withRequesterExecutorAndOptionAssocieted.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userTaskTest_withRoleExecutorAndOptionAssocieted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\userTaskTest_withRoleExecutorAndOptionAssocieted.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userTaskTest_withTwoOutgoing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkflowValidationServiceTest\userTaskTest_withTwoOutgoing.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xmlServiceTest_compleDiagram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XmlDiagramServiceTest\xmlServiceTest_compleDiagram.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xmlServiceTest_diagramWithGateway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XmlDiagramServiceTest\xmlServiceTest_diagramWithGateway.bpmn;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

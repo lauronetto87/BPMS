@@ -1,0 +1,82 @@
+# ASP.NET Core (.NET Framework)
+# Build and test ASP.NET Core projects targeting the full .NET Framework.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+variables:
+  - template: variables.yml
+
+name: $(Date:yyyyMMdd)$(Rev:.r)-$(version)
+
+resources:
+  repositories:
+    - repository: DevOps
+      type: git
+      name: DevOps/DevOps
+      ref: refs/heads/main
+
+trigger:
+  - main
+
+pool:
+  name: awspipeline
+
+stages:
+  - stage: Build
+    jobs:
+      - template: ibpms-be/template/build.yml@DevOps
+
+  - stage: Deploy_DEV
+    condition: and(succeeded(), eq(variables['Build.Reason'], 'Manual'), ne(variables['Build.SourceBranch'], 'refs/heads/main'))
+    jobs:
+      - template: ibpms-be/template/deploy.yml@DevOps
+        parameters:
+          environment: dev
+          instanceId: $(instanceIdDEV)
+  - stage: START_HOM
+    condition: eq(variables['Build.SourceBranch'], 'refs/heads/main')
+    jobs:
+      - deployment: HOM
+        environment: HOM
+      - job: START_HOM
+        steps:
+          - task: AWSShellScript@1
+            displayName: START HOM
+            inputs:
+              awsCredentials: AWS - Deploy
+              regionName: us-east-1
+              scriptType: inline
+              inlineScript: |
+                status=$(aws ec2 describe-instances --filters Name=tag:Name,Values=hom-ibpms --query Reservations[].Instances[].[State.Name] --output text --region us-east-1)
+                  if [[ $status != running ]]
+                  then
+                      echo ---- START LAMBDA ----
+                      aws lambda invoke --cli-binary-format raw-in-base64-out --function-name HomMachineStart --payload '{ "module": "ibpms" }' response.json
+                      sleep 15m
+                  fi
+  - stage: Deploy_HOM
+    condition: eq(variables['Build.SourceBranch'], 'refs/heads/main')
+    jobs:
+      - template: ibpms-be/template/deploy.yml@DevOps
+        parameters:
+          environment: hom
+          instanceId: $(instanceIdHOM)
+  - stage: QA_HOM
+    condition: eq(variables['Build.SourceBranch'], 'refs/heads/main')
+    jobs:
+      - deployment: QA_HOM
+        environment: QA
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - script: echo "hello, qa world !!!"
+  - stage: PROD
+    condition: eq(variables['Build.SourceBranch'], 'refs/heads/main')
+    jobs:
+      - deployment: PROD
+        environment: PROD
+      - template: ibpms-be/template/deploy.yml@DevOps
+        parameters:
+          environment: prod
+

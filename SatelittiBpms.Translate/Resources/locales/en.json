@@ -1,0 +1,998 @@
+{
+  "codex": {
+    "notification": {
+      "title": "Notifications",
+      "empty": "No notifications",
+      "settingTitle": "Notification settings"
+    },
+    "filter": {
+      "filter": "Filter",
+      "clearFilter": "Clear filters",
+      "applyFilter": "Apply",
+      "messageFilterRequired": "* Required Fields",
+      "minimumDateValidation": "Minimum allowed date is ",
+      "formatDate": "yyyy-MM-dd"
+    },
+    "bar-filter": {
+      "filtering": "Filtering items"
+    },
+    "dropdown": {
+      "searchTextNotFound": "\"{{searchedValue}}\" not found",
+      "clearDropdownItem": "Clear selection"
+    },
+    "datePickerComponent": {
+      "datePickerPlaceholder": "yyyy-mm-dd"
+    },
+    "blankslate": {
+      "button": "Button Blankslate"
+    },
+    "asideLeft": {
+      "ca": "Codex",
+      "buttons": "Buttons",
+      "blankslate": "Blanklate",
+      "card": "Card",
+      "cardCollapse": "Card Collapse",
+      "checkbox": "Checkbox",
+      "chip": "Chip",
+      "datePicker": "Date picker",
+      "dropdown": "Dropdown",
+      "filter": "Filter",
+      "form": "Forms",
+      "infiniteScroll": "Infinite Scroll",
+      "inputSearch": "Input Search",
+      "layout": "Layout",
+      "message": "Message",
+      "onboarding": "Onboarding",
+      "stepper": "Stepper",
+      "table": "Table",
+      "tabs": "Tabs",
+      "tag": "Tag",
+      "upload": "Upload",
+      "signOut": "signOut",
+      "icon": "Icon",
+      "grid": "Grid",
+      "toast": "Toast"
+    },
+    "card": {
+      "button": "Button",
+      "buttonOne": "Button 1",
+      "buttonTwo": "Button 2"
+    },
+    "cardSelect": {
+      "apple": "apple",
+      "pepper-hot": "pepper-hot",
+      "carrot": "carrot",
+      "lemon": "lemon"
+    },
+    "tag": {
+      "default": "default",
+      "tooltip": "tooltip",
+      "primary": "primary",
+      "info": "info",
+      "warning": "warning",
+      "success": "success",
+      "danger": "danger",
+      "icon": "icon"
+    },
+    "checkbox": {
+      "span": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "description": "Optional description small"
+    },
+    "navbarUser": {
+      "buttonViewer": "Back to home",
+      "signOut": "Exit",
+      "Language": "Languages"
+    },
+    "chip": {
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "remove": "Times active"
+    },
+    "chipContainer": {
+      "chip": "Chip",
+      "chipMultisect": "Chip multiselect"
+    },
+    "inputChip": {
+      "placeholderText": "Comma or enter"
+    },
+    "inputDisabled": {
+      "label": "Label",
+      "small": "We'll never share your email with anyone else."
+    },
+    "datePicker": {
+      "title": "Date Picker Range"
+    },
+    "onboarding": {
+      "onboarding": {
+        "title": "Onboarding Capa Exemplo Codex",
+        "subtitle": "Escreva uma breve explicação do que vai estar no onboarding.",
+        "btnPrimary": "Conhecer as novidades",
+        "btnSecondary": "Mais tarde"
+      },
+      "onboarding1": {
+        "title": "Index 1",
+        "subtitle": "Write a text of a maximum of three lines so that the text doesn't get too long and ends up leaving the layout loaded.",
+        "btnPrimary": "Next",
+        "btnSecondary": "Back"
+      },
+      "onboarding2": {
+        "title": "Index 2",
+        "subtitle": "Write a text of a maximum of three lines so that the text doesn't get too long and ends up leaving the layout loaded.",
+        "btnPrimary": "Next",
+        "btnSecondary": "Back"
+      },
+      "onboarding3": {
+        "title": "Index 3",
+        "subtitle": "Write a text of a maximum of three lines so that the text doesn't get too long and ends up leaving the layout loaded.",
+        "btnPrimary": "Next",
+        "btnSecondary": "Back"
+      }
+    },
+    "stepperVertical": {
+      "title": "Title",
+      "description": "Description",
+      "info1": "info 1",
+      "info2": "info 2",
+      "info3": "info 3",
+      "info4": "info 4"
+    },
+    "bar-search": {
+      "searchingFor": "Searching for \"<strong>{{searchedValue}}</strong>\""
+    },
+    "stepperHorizontal": {
+      "done": "Done",
+      "active": "Active",
+      "disabled": "Disabled"
+    },
+    "tabs": {
+      "default": "Default",
+      "badge": "Badge",
+      "badgeSuccess": "Badge success",
+      "badgeWaringn": "Badge warning",
+      "badgeDanger": "Badge danger"
+    },
+    "menu": "Menu"
+  },
+    "defaultFormat": {
+      "date": "yyyy-mm-dd",
+      "dateTime": "dd/MM/yyyy",
+      "dateTimeWithoutSeconds": "MM/dd/yyyy 'at' hh:mm a"
+    },
+    "menu": {
+      "ca-flows": "Request flow",
+      "ca-processes": "Create Processe",
+      "suite": "Suite",
+      "flows": "Flows",
+      "settings": "Settings",
+      "processes": "Processes"
+    },
+    "settings": {
+      "title": "Settings",
+      "tabs": {
+        "roles": "Roles"
+      },
+      "roles": {
+        "labels": {
+          "createNew": "Create role",
+          "table": {
+            "header": {
+              "roleName": "Role name"
+            }
+          },
+          "blankslate": {
+            "message": "Create new roles to link your users and direct processes to them.",
+            "button": "Create Role"
+          },
+          "tooltips": {
+            "viewAndEdit": "View and edit",
+            "delete": "Delete role",
+            "blankslate": "Roles are used to insert users to it and when creating processes or requesting, you will be directed to this group of created roles"
+          },
+          "messages": {
+            "successfullyDeleted_singular": "Successfully deleted role!",
+            "successfullyDeleted_plural": "Successfully deleted roles!"
+          },
+          "modals": {
+            "confirm-delete": {
+              "headerText": "Confirm deletion",
+              "questionText_singular": "Do you want to delete the selected role?",
+              "questionText_plural": "Do you want to delete the selected roles?",
+              "messageText": "",
+              "confirm": "YES",
+              "cancel": "NO"
+            }
+          }
+        },
+        "form": {
+          "labels": {
+            "createTitle": "Create role",
+            "viewAndEditTitle": "View and edit",
+            "description": "GIVE A NAME FOR THE ROLE AND INSERT USERS IN IT",
+            "roleName": "Role name",
+            "roleNamePlaceholder": "E.g.: Financial",
+            "users": "USERS",
+            "roleUsers": "ROLE USERS",
+            "addUserToRole": "INSERT ON ROLE",
+            "finishCreation": "FINISH CREATION",
+            "saveChange": "SAVE CHANGE",
+            "table": {
+              "usersHeader": "Username",
+              "roleUsersHeader": "Username on role"
+            },
+            "tooltips": {
+              "description": "Create a name for this role, add users to it, and target processes for this user niche",
+              "users": "List users have been added by the Satellite suite. To configure these, it is necessary to go back to the suite administration",
+              "roleUsers": "Here the users added for that role will be listed.",
+              "deleteUser": "Remove user from role"
+            },
+            "messages": {
+              "successfullyRemoved": "User removed successfully!",
+              "userRequired": "Assign at least 01 user to this role!",
+              "roleAlreadyExists": "There is already a Role with this name!",
+              "successfullyCreated": "Successfully created paper",
+              "successfullyChanged": "Successfully changed role"
+            },
+            "modals": {
+              "confirm-back": {
+                "headerText": "Confirm Back",
+                "questionText": {
+                  "create": "Do you really want to cancel role creation?",
+                  "edit": "Do you really want to cancel role editing?"
+                },
+                "messageText": "All information filled in will not be saved.",
+                "confirm": "YES",
+                "cancel": "NO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "processes": {
+      "title": "Processes",
+      "tabs": {
+        "all": "All"
+      },
+      "labels": {
+        "createNew": "Create new process",
+        "changeToGridMode": "View in grid",
+        "changeToListMode": "view in list",
+        "changeSortOrderToAscending": "Most recent",
+        "changeSortOrderToDescending": "Older",
+        "detailCardButton": "Detail",
+        "editCardButton": "Edit",
+        "runCardButton": "Run",
+        "creationDate": "Created",
+        "createBy": "Created by",
+        "lastChangeDate": "Last change",
+        "additionalInformation": "Additional Information",
+        "status": {
+          "description": "Status",
+          "editing": "Editing",
+          "published": "Published"
+        },
+        "blankslateNoItems": {
+          "message": "Create new processes, publish them so that others can request and perform tasks intended for them.",
+          "button": "CREATE NEW PROCESS"
+        },
+        "blankslateNoSearchResult": {
+          "message": "We didn't find any process related to your search."
+        },
+        "steps": {
+          "settings": "Settings",
+          "flow": "Flow",
+          "review": "Review",
+          "form": "Form",
+          "ssignintegration": "Integration S-SIGN"
+        }
+      },
+      "newProcess": {
+        "labels": {
+          "createTitle": "Create new process",
+          "templateTitle": "Create process",
+          "viewAndEditTitle": "View and edit",
+          "saveAndContinueLater": "SAVE",
+          "next": "ADVANCE",
+          "publish": "PUBLISH",
+          "back": "RETURN",
+          "createNewProcessFromScratch": "Create new process from scratch",
+          "vacationRequestFromScratch": "Vacation Request",
+          "modals": {
+            "confirm-back": {
+              "headerText": "Confirm Back",
+              "questionText": {
+                "template": "Do you really want to cancel the choice?",
+                "create": "Do you really want to cancel process creation?",
+                "edit": "Do you really want to cancel process editing?"
+              },
+              "messageText": "Any unsaved information will be lost.",
+              "confirm": "YES",
+              "cancel": "NO"
+            },
+
+            "confirm-delete": {
+              "headerText": "You are deleting a task",
+              "messageText": "When removing a task, all of it's configuration will also be removed",
+              "confirm": "REMOVE",
+              "cancel": "CANCEL"
+            }
+          }
+        },
+        "forms": {
+          "settings": {
+            "labels": {
+              "description": "PROCESS SETTINGS",
+              "processName": "Process name",
+              "processNamePlaceholder": "E.g.: Vacation Request",
+              "processDescription": "Process description",
+              "processDescriptionPlaceholder": "Description",
+              "processDescriptionFlow": "Flow description",
+              "processDescriptionFlowPlaceholder": "Description",
+              "rolesThatCanBeRequest": "ROLES THAT MAY REQUEST THIS PROCESS",
+              "table": {
+                "rolesHeader": "Role name"
+              },
+              "tooltips": {
+                "description": "Create a name for this role, add users to it, and target processes for this user niche",
+                "rolesThatCanBeRequest": "Select the roles that will be allowed to request this process",
+                "descriptionFlow": "Wildcards (# or @) can be used in this field, with # for fixed information and @ for form fields."
+              }
+            }
+          },
+          "flow": {
+            "modeler": {
+              "task": "Task",
+              "addLaneAbove": "Add Lane above",
+              "addLaneBelow": "Add Lane below",
+              "activeLassoTool": "Activate the lasso tool",
+              "activeSpaceTool": "Activate the create/remove space tool",
+              "createGeneric": "Create {type}",
+              "createStartEvent": "Create start event",
+              "createEndEvent": "Create end event",
+              "createUserTask": "Create user task",
+              "createPool": "Create pool",
+              "createSendTask": "Create notification task",
+              "createExclusiveGateway": "Create simple condition",
+              "createSignerTask": "Create Intergration Task with S-Sign",
+              "appendGeneric": "Append {type}",
+              "appendEndEvent": "Append end event",
+              "appendExclusiveGateway": "Append exclusive gateway",
+              "appendUserTask": "Append user task",
+              "appendNotificationTask": "Append notification task",
+              "appendSignerTask": "Append Integration Task with S-Sign",
+              "connectArrow": "Connect",
+              "remove": "Remove",
+              "resetZoom": "Centralize",
+              "zoomIn": "Zoom in",
+              "zoomOut": "Zoom out",
+              "modals": {
+                "general": {
+                  "nameOf": "{{type}} name",
+                  "nameOfPlaceHolder": "What is the name of this {{type}}?",
+                  "typeName": "Task"
+                },
+                "startEventModal": {
+                  "headerText": "Start event"
+                },
+                "participantModal": {
+                  "headerText": "Pool",
+                  "typeName": "Pool"
+                },
+                "endEventModal": {
+                  "headerText": "End event"
+                },
+                "sequenceFlowModal": {
+                  "headerText": "Flow sequence",
+                  "option": "Option that must be selected by the user for the flow to follow this path",
+                  "optionPlaceholder": "Select an option"
+                },
+                "exclusiveGatewayModal": {
+                  "headerText": "simple decision"
+                },
+                "userTaskModal": {
+                  "headerText": "User Activity",
+                  "selectAnExecutorType": "Select an executor type",
+                  "selectAnExecutor": "Select a {{executorType}}",
+                  "selectAnRole": "Select a Role",
+                  "selectAnPerson": "Select a Person",
+                  "optionsToShow": "What options should the user see to complete this task?",
+                  "optionsToShowHelper": "Type comma or press Enter to insert a new option.<br>Enter one or more. User will see that options as buttons.",
+                  "optionsToShowHelperChip": "Ex: Approve, Reprove",
+                  "optionsPlaceholder": "Separate the options by ','",
+                  "taskExecutor": {
+                    "type": "Executor type",
+                    "executorAssignedToTask": "What {{executorType}} will be assigned to this task?",
+                    "labelRole": "What Role will be assigned to this task?",
+                    "labelPerson": "Who will perform this task?",
+                    "types": {
+                      "requester": "Requester",
+                      "role": "Role",
+                      "person": "Person"
+                    }
+                  }
+                },
+                "notificationTaskModal": {
+                  "headerText": "Notification Activity",
+                  "titleMessage": "Message title",
+                  "message": "Message",
+                  "selectAnDestinataryPerson": "Select a person",
+                  "selectAnDestinataryRole": "Select a paper",
+                  "selectAnDestinataryType": "Select a recipient type",
+                  "taskDestinatary": {
+                    "type": "Recipient type",
+                    "destinataryAssignedToTask": "Recipient",
+                    "destinataryToShowHelper": "Email will be sent to users of the selected role.",
+                    "email": "E-mail",
+                    "types": {
+                      "requester": "Requester",
+                      "role": "Paper",
+                      "person": "Person",
+                      "custom": "Custom"
+                    }
+                  }
+                },
+                "laneModal": {
+                  "headerText": "Lane",
+                  "selectAnExecutorType": "Select an executor type",
+                  "selectAnExecutorRole": "Select a paper",
+                  "selectAnExecutorPerson": "Select a person",
+                  "taskExecutor": {
+                    "type": "Executor type",
+                    "executorAssignedToTask": "What {{executorType}} will be assigned to this lane?",
+                    "types": {
+                      "requester": "Requester",
+                      "role": "Role",
+                      "person": "Person"
+                    }
+                  }
+                },
+                "signerModal": {
+                  "headerText": "S-Sign Integration Activity",
+                  "optionsToShowHelper": "The task configuration will be performed in the process creation step called Integration with S-Sign."
+                }
+              }
+            }
+          },
+          "form": {
+            "labels": {
+              "Fields": "Fields",
+              "Drag and Drop a form component": "Drag and Drop a form component",
+              "Text Field": "Text Field",
+              "Email": "Email",
+              "Text Area": "Text Area",
+              "Number": "Number",
+              "Date / Time": "Date / Time",
+              "Checkbox": "Multiple choice",
+              "Currency": "Currency",
+              "Select": "Selection box",
+              "Radio": "Single selection",
+              "Display": "Display",
+              "Label": "Label",
+              "File": "Attach Document",
+              "The label for this field that will appear next to it.": "The label for this field that will appear next to it.",
+              "Placeholder": "Placeholder",
+              "The placeholder text that will appear when this field is empty.": "The placeholder text that will appear when this field is empty.",
+              "Tooltip": "Tooltip",
+              "To add a tooltip to this field, enter text here.": "To add a tooltip to this field, enter text here.",
+              "Adds a tooltip to the side of this field.": "Adds a tooltip to the side of this field.",
+              "Save": "Save",
+              "Cancel": "Cancel",
+              "Remove": "Remove",
+              "Rows": "Rows",
+              "Multiple Values": "Multiple Values",
+              "Default Value": "Default Value",
+              "Data Source Values": "Data Source Values",
+              "Value": "Value",
+              "Add Another": "Add Another",
+              "Data": "Data",
+              "Shortcut": "Shortcut",
+              "Values": "Values",
+              "error": "Please fix the following errors before submitting.",
+              "invalid_date": "{{field}} is not a valid date.",
+              "invalid_email": "{{field}} must be a valid email.",
+              "invalid_regex": "{{field}} does not match the pattern {{regex}}.",
+              "mask": "{{field}} does not match the mask.",
+              "max": "{{field}} cannot be greater than {{max}}.",
+              "maxLength": "{{field}} must be shorter than {{length}} characters.",
+              "min": "{{field}} cannot be less than {{min}}.",
+              "minLength": "{{field}} must be longer than {{length}} characters.",
+              "next": "Next",
+              "pattern": "{{field}} does not match the pattern {{pattern}}",
+              "previous": "Previous",
+              "required": "{{field}} is required",
+              "array_nonempty": "{{field}} must contain at least one file.",
+              "Conditional": "Conditional",
+              "Simple": "Simple",
+              "This component should Display:": "This component should Display",
+              "When the form component:": "When the form component",
+              "Has the value:": "Has the value",
+              "True": "True",
+              "False": "False",
+              "Text Field (textField)": "Text Field",
+              "Type to search": "Type to search",
+              "Data Source Type": "Tipo de fuente de datos",
+              "Data Source URL": "Data Source URL",
+              "Lazy Load Data": "Lazy Load Data",
+              "Request Headers": "Request Headers",
+              "Value Property": "Value Property",
+              "The selected item's property to save.": "The selected item's property to save.",
+              "Disable limiting response": "Disable limiting response",
+              "Search Query Name": "Search Query Name",
+              "Name of URL query parameter": "Name of URL query parameter",
+              "Filter Query": "Filter Query",
+              "The filter query for results.": "The filter query for results.",
+              "Sort Query": "Sort Query",
+              "The sort query for results": "The sort query for results",
+              "Limit": "Limit",
+              "Maximum number of items to view per page of results.": "Maximum number of items to view per page of results.",
+              "Formio Authenticate": "Formio Authenticate",
+              "Disables Storing Request Result in the Cache": "Disables Storing Request Result in the Cache",
+              "Key": "Key",
+              "Resource": "Resource",
+              "Custom": "Custom",
+              "Raw Json": "Raw Json",
+              "IndexedDB": "IndexedDB",
+              "Add Resource": "Add Resource",
+              "Save as reference": "Save as reference",
+              "Custom Values": "Custom Values",
+              "Data Source Raw JSON": "Data Source Raw JSON",
+              "Database name": "Database name",
+              "Table name": "Table name",
+              "Row Filter": "Row Filter",
+              "Data Path": "Data Path",
+              "The object path to the iterable items.": "The object path to the iterable items.",
+              "Item Template": "Item Template",
+              "Organization": "Organization",
+              "Tabs": "Tabs",
+              "Columns": "Columns",
+              "Table": "Table",
+              "activities": "Activities",
+              "activity": "Activity",
+              "visibility": "Visibility",
+              "fieldViewUser": {
+                "types": {
+                  "editable": "Editable",
+                  "required": "Required",
+                  "readonly": "Read Only",
+                  "invisible": "Invisible"
+                }
+              },
+              "File Minimum Size": "File Minimum Size",
+              "File Maximum Size": "File Maximum Size",
+              "File Name": "File Name",
+              "Size": "Size",
+              "Drop files to attach,": "Drop files to attach,",
+              "or": "or",
+              "browse": "browse",
+              "File with the same name is already uploaded": "File with the same name is already uploaded",
+              "Field Label": "Field Label",
+              "Preview": "Preview",
+              "File is too big; it must be at most {{ size }}": "File is too big; it must be at most {{ size }}",
+              "File is too small; it must be at least {{ size }}": "File is too small; it must be at least {{ size }}",
+              "Processing file. Please wait...": "Processing file. Please wait...",
+              "File is the wrong type; it must be {{ pattern }}": "Invalid file! Only .pdf, .doc and .docx are allowed.",
+              "File Service not provided.": "File Service not provided.",
+              "Starting upload.": "Starting upload.",
+              "File processing has been failed.": "File processing has been failed.",
+              "This allows control over how many rows are visible in the text area.": "This allows control over how many rows are visible in the text area.",
+              "Component": "Component",
+              "No choices to choose from": "No choices to choose from",
+              "Allows multiple values to be entered for this field.": "Allows multiple values to be entered for this field.",
+              "The source to use for the select data. Values lets you provide your own values and labels. JSON lets you provide raw JSON data. URL lets you provide a URL to retrieve the JSON data from.": "The source to use for the select data. Values lets you provide your own values and labels. JSON lets you provide raw JSON data. URL lets you provide a URL to retrieve the JSON data from.",
+              "The will be the value for this field, before user interaction. Having a default value will override the placeholder text.": "The will be the value for this field, before user interaction. Having a default value will override the placeholder text.",
+              "Values to use as the data source. Labels are shown in the select field. Values are the corresponding values saved with the submission.": "Values to use as the data source. Labels are shown in the select field. Values are the corresponding values saved with the submission.",
+              "The HTML template for the result data items.": "The HTML template for the result data items.",
+              "The radio button values that can be picked for this field. Values are text submitted with the form data. Labels are text that appears next to the radio buttons on the form.": "The radio button values that can be picked for this field. Values are text submitted with the form data. Labels are text that appears next to the radio buttons on the form.",
+              "The shortcut key for this option.": "The shortcut key for this option.",
+              "See <a href='https://github.com/danialfarid/ng-file-upload#full-reference' target='_blank'>https://github.com/danialfarid/ng-file-upload#full-reference</a> for how to specify file sizes.": "Set the maximum and minimum size of files to upload, accepted as abbreviations B, KB and MB. Example 10B, 10KB and 10MB.",
+              "The width, offset, push, and pull settings for each column.": "Width settings for each column.",
+              "Enter the number or rows that should be displayed by this table.": "Enter the number or rows that should be displayed by this table.",
+              "Enter the number or columns that should be displayed by this table.": "Enter the number or columns that should be displayed by this table.",
+              "Removing this component will also remove all of its children. Are you sure you want to do this?": "Removing this component will also remove all of its children. Are you sure you want to do this?",
+              "Column Properties": "Columns",
+              "Width": "Width",
+              "Offset": "Offset",
+              "Push": "Push",
+              "Pull": "Pull",
+              "Add Column": "Add Column",
+              "Number of Rows": "Number of Rows",
+              "Number of Columns": "Number of Columns",
+              "Edit": "Edit",
+              "Move": "Move",
+              "Edit JSON": "Edit Json",
+              "Paste below": "Paste below",
+              "Copy": "Copy",
+              "Content": "Text/Image",
+              "Component JSON": "Component JSON",
+              "Edit the JSON for this component.": "Edit the JSON for this component.",
+              "Full Schema": "Full Schema",
+              "Help": "Help",
+              "invalidCpf": "Invalid CPF!",
+              "invalidCnpj": "Invalid CNPJ!"
+            },
+            "validations": {
+              "file": {
+                "maxSizeError": "The file size cannot be larger than 200MB",
+                "maxSizeErrorSign": "The file size cannot be larger than 45MB",
+                "lessThanZeroError": "The value cannot be less than zero",
+                "minSizeError": "The file must be larger than 1B",
+                "invalidNumber": "The value is invalid, inform the number in bytes or use the abbreviations B, KB and MB. Example 10B, 10KB and 10MB"
+              },
+              "signer": {
+                "fieldWithEditableVisibilityNotAllowed": "The field {{field}} is a mandatory data source for the S-Sign integration and must be filled in other than Editable."
+              }
+            },
+            "settings": {
+              "configurationViewOptions": "Visibility Setting"
+            },
+            "modals": {
+              "formFieldViewUserTaskModal": {
+                "headerText": "Visibility Setting",
+                "activity": "Activity",
+                "selectAnActivity": "Select an activity",
+                "selectAnVisibility": "Select a visibility option",
+                "blankslateNoItems": "There are no fields added to the form or there is no form registered for the process!",
+                "save": "Save",
+                "cancel": "Cancel",
+                "fields": "Fields",
+                "fieldViewUser": {
+                  "types": {
+                    "editable": "Editable",
+                    "required": "Required",
+                    "readonly": "Read Only",
+                    "invisible": "Invisible"
+                  }
+                },
+                "table": {
+                  "fieldsHeader": "Field Name",
+                  "visibilityHeader": "Visibility"
+                }
+              }
+            }
+          },
+          "review": {
+            "general": {
+              "title": "GENERAL",
+              "processName": "Process name",
+              "requestingRoles": "Requesting roles of the process",
+              "description": "Process description"
+            }
+          },
+          "sign": {
+            "general": {
+              "label": "S-SIGN Integration Setup",
+              "labelHelper": "To configure S-SIGN integration tasks, select the task you want to configure. Afterwards, configure all the necessary fields and save the configuration. Do the same with all the S-SIGN integration tasks that were added to the flowchart to proceed with the process creation.",
+              "task": "Integration task with S-SIGN",
+              "taskTitle": "Select a task",
+              "taskConfigure": "Configure the selected task",
+              "taskHelper": "Seleccione una tarea de integración con S-SIGN para configurarla.",
+              "taskPlaceholder": "Select a task",
+              "attachedFiles": "Attached files",
+              "attachedFilesHelper": "Please select at least one upload field for it to be included in the S-SIGN envelope.",
+              "envelopeTitle": "Envelope title",
+              "envelopeTitleHelper": "Assign a title to the envelope.<br><br>Remembering that wildcards (# or @) can be used in this field, with @ the fixed information and # the form fields.",
+              "envelopeTitlePlaceholder": "Ex: Envelope 01",
+              "expirationDate": "Expiration date",
+              "expirationDateHelper": "Select a form field that contains the envelope expiration date.<br><br>Remembering that this field is not required.",
+              "expirationDatePlaceholder": "Select a corresponding field",
+              "language": "Language",
+              "languageHelper": "The main content of the email, except what you type and the caption of the documents, will be automatically adapted to the selected language.",
+              "segment": "Segment",
+              "segmentHelper": "Select the envelope segment.<br><br>Remembering that this field is not required.",
+              "segmentPlaceholder": "select an item",
+              "sendReminders": "Send reminders",
+              "sendRemindersHelper": "Signers and authorizers will receive notifications in their email boxes until they sign or authorize the document.",
+              "formFields": "Form fields",
+              "userTask": "Task executor"
+            },
+            "signatory": {
+              "envelopeSignatories": "Envelope signatories",
+              "envelopeSignatoriesHelper": "Configure the information of the people who must sign the envelop documents.",
+              "accessAuthentication": "Access authentication",
+              "accessAuthenticationHelper": "This option offers more security when sharing a document, as a random code of 6 characters will be generated, in which the subscriber will be asked when signing the document.<br><br>Remembering that it is not required to check this option .",
+              "numberOfSignatories": "Number of signatories",
+              "signatory": "Signatory",
+              "signatoryHelper": "Configure this signer's information.",
+              "signatoryRegistrationLocation": "What is the location of the Satelitti that the signatory is registered?",
+              "signatoryRegistrationLocationHelper": "Among the options, select the location of the Satelitti where the signatory is registered so that we can capture the main information about him.<br><br>Remembering that depending on the location indicated, we will not automatically have all the necessary information about the signatory, and we will need that you tell us a form field that contains certain information.",
+              "signatoryRegistrationLocationPlaceholder": "select a location",
+              "signatoryName": "Signatory name",
+              "signatoryNameHelper": "Select the person to sign the envelope document(s).",
+              "signatoryNamePlaceholder": "Select an item",
+              "signatoryNamePlaceholderForm": "Select a corresponding field",
+              "cpfOfTheSignatory": "Signatory's CPF",
+              "cpfOfTheSignatoryHelper": "Select the appropriate option that informs the signatory's CPF.<br><br>If the signatory is a foreigner and does not have a CPF, select the option \"Without CPF\".",
+              "cpfOfTheSignatoryPlaceholder": "Select an item",
+              "cpfOfTheSignatoryPlaceholderForm": "Select a corresponding field",
+              "withoutCpf": "Without CPF",
+              "emailOfTheSignatory": "Signer's E-mail",
+              "emailOfTheSignatoryHelper": "Select the appropriate option that informs the signer's email.",
+              "emailOfTheSignatoryPlaceholder": "Select an item",
+              "emailOfTheSignatoryPlaceholderForm": "Select a corresponding field",
+              "subscriberType": "Subscriber type",
+              "subscriberTypeHelper": "Select whether the signer will sign the envelope document(s) as a common signer or as a witness.",
+              "subscriberTypePlaceholder": "Select an item",
+              "signatoryType": "Signatory type",
+              "signatoryTypeHelper": "Select whether the signer will sign the envelope document(s) as a common signer or as a witness.",
+              "signatoryTypePlaceholder": "Select an item",
+              "originActivity": "Task executor",
+              "originActivityHelper": "Select a task so that we can capture the user who performed it and use the name and email information.",
+              "originActivityPlaceholder": "Select a user task"
+            },
+            "authorizer": {
+              "envelopeAuthorizers": "Envelope Authorizers",
+              "envelopeAuthorizersHelper": "If you enable prior authorization, configure the information of the people who must authorize the envelope document(s).",
+              "enablePriorAuthorizationOfTheDocument": "Enable prior authorization of the document(s)",
+              "enablePriorAuthorizationOfTheDocumentHelper": "Enable this option if there are people who must authorize the envelope document(s).",
+              "accessAuthentication": "Access authentication",
+              "accessAuthenticationHelper": "This option offers more security when sharing a document, as a random code of 6 characters will be generated, in which the authorizer will be requested when authorizing the document.<br><br>Remembering that it is not required to select this option .",
+              "numberOfAuthorizers": "Number of authorizers",
+              "authorizer": "Authorizer",
+              "authorizerHelper": "Configure the information for this authorizer below.",
+              "authorizerRegistrationLocation": "What is the location of the Satelitti that the authorizer is registered in?",
+              "authorizerRegistrationLocationHelper": "Among the options, select the location of the Satelitti where the authorizer is registered so that we can capture the main information about it.<br><br>Remembering that depending on the location indicated, we will not automatically have all the necessary information about the authorizer, and we will need that you tell us a form field that contains certain information.",
+              "authorizerRegistrationLocationPlaceholder": "Select a location",
+              "authorizerName": "Authorizer name",
+              "authorizerNameHelper": "Select the person to authorize the envelope document(s).",
+              "authorizerNamePlaceholder": "Select an item",
+              "authorizerNamePlaceholderForm": "Select a corresponding field",
+              "cpfOfTheAuthorizer": "Authorizer CPF",
+              "cpfOfTheAuthorizerHelper": "Select the appropriate option that informs the authorizer's CPF.<br><br>If the authorizer is a foreigner and does not have a CPF, select the option \"Without CPF\".",
+              "cpfOfTheAuthorizerPlaceholder": "Select an item",
+              "cpfOfTheAuthorizerPlaceholderForm": "Select a corresponding field",
+              "withoutCpf": "Without CPF",
+              "emailOfTheAuthorizer": "Authorizer E-mail",
+              "emailOfTheAuthorizerHelper": "Select the appropriate option that informs the e-mail of the authorizer.",
+              "emailOfTheAuthorizerPlaceholder": "Select an item",
+              "emailOfTheAuthorizerPlaceholderForm": "Select a corresponding field",
+              "originActivity": "Task executor",
+              "originActivityHelper": "Select a task so that we can capture the user who performed it and use the name and email information.",
+              "originActivityPlaceholder": "Select a user task"
+            }
+          },
+          "labels": {
+            "messages": {
+              "processRolesRequired": "Assign at least 01 role to this process!",
+              "processAlreadyExists": "There is already a process with this name!",
+              "successProcessCreated": "Successfully created process",
+              "successProcessChanged": "Process successfully changed",
+              "successProcessSave": "Process saved successfully!"
+            }
+          }
+        }
+      },
+      "eventProcessModal": {
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "tabs": {
+          "decisions": "Decisions"
+        }
+      }
+    },
+    "flows": {
+      "loadMore": "LOAD MORE",
+      "newFlow": {
+        "title": "Request flow",
+        "modal": {
+          "process": "Process",
+          "selectProcess": "Select a process",
+          "confirm": "Request",
+          "cancel": "Cancel"
+        }
+      },
+      "groupBy": {
+        "ungrouped": "Ungrouped",
+        "process": "Process",
+        "task": "Task"
+      },
+      "title": "Flows",
+      "tabs": {
+        "all": {
+          "headerTitle": "Flows to follow",
+          "description": "To follow up"
+        },
+        "myTasks": {
+          "headerTitle": "Flows for you to do",
+          "description": "For you to do"
+        }
+      },
+      "labels": {
+        "withMe": "With Me",
+        "assignButtonCard": "Assign",
+        "returnButtonCard": "Return",
+        "startDate": "Start Date",
+        "deadline": "Deadline",
+        "finished": "Finished",
+        "responsibleRole": "This task can be associated by the role {{paper}}",
+        "responsibleWithMe": "You must perform this task",
+        "responsibleOtherUser": "Current responsible: {{user}}",
+        "flowFinished": "Finished Flow",
+        "role": "Role",
+        "cpf": "CPF",
+        "cnpj": "CNPJ",
+        "blankslateNoItems": {
+          "message": "We didn't find any tasks related to your user."
+        },
+        "blankslateNoSearchResult": {
+          "message": "We didn't find any tasks related to your search."
+        },
+        "modals": {
+          "confirm-back": {
+            "headerText": "Confirm Back",
+            "questionText": "Do you really want to cancel the task execution?",
+            "messageText": "All information filled in will not be saved.",
+            "confirm": "YES",
+            "cancel": "NO"
+          }
+        },
+        "asideRight": {
+          "title": "Details",
+          "currentTask": "Current task",
+          "process": "Process",
+          "status": "Status",
+          "inProgress": "In progress",
+          "finished": "Finished",
+          "executor": "Current responsible",
+          "requester": "Requester",
+          "createdDate": "Request date",
+          "finishedDate": "Finalization date",
+          "viewHistory": "View History",
+          "tabs": {
+            "information": "Information",
+            "historic": "Historic"
+          },
+          "reason": {
+            "title": "Why are you viewing this flow?",
+            "youRequest": "You requested this flow",
+            "youNeedToRun": "You need to perform this task.",
+            "youCanAssociate": "You can associate this task from your role for you to perform.",
+            "youWillRun": "You will run a task from this stream.",
+            "yourRoleWillTask": "Your role will perform a task of this flow.",
+            "youHaveRunTask": "You have run a task from this stream.",
+            "yourRolePerformedTask": "Your role performed a task of this flow."
+          },
+          "file": {
+            "titleFile": "Flow attachments",
+            "tagTitleFile_singular": "File",
+            "tagTitleFile_plural": "Files",
+            "columnTitle": "Field name",
+            "columnFile": "Archive",
+            "popover": {
+              "title": "More information",
+              "nameTask": "Task name",
+              "nameResponsible": "Responsible",
+              "nameFile": "File"
+            },
+            "tooltip": {
+              "originalFile": "Original file",
+              "signedFile": "Signed file",
+              "fileForPrinting": "File for printing"
+            }
+          }
+        }
+      },
+      "filter": {
+        "originRequests": {
+          "title": "Origin requests",
+          "myRequests": "Only mine"
+        },
+        "flows": {
+          "title": "Hide Flows",
+          "finalized": "Finalized",
+          "alreadyActed": "Already acted"
+        },
+        "date": {
+          "titleFlowsFinalized": "Finished flows",
+          "titleFlowsRequested": "Requested flows"
+        },
+        "process": {
+          "title": "Process"
+        }
+      },
+      "flowHistory": {
+        "process": "Process",
+        "description": "Description",
+        "table": {
+          "labels": {
+            "system": "System",
+            "request": "Request",
+            "finished": "Finished",
+            "executorSystem": "SYSTEM"
+          },
+          "headers": {
+            "activity": "Activity",
+            "executor": "Executor",
+            "arrival": "Arrival",
+            "end": "End",
+            "action": "Action"
+          }
+        },
+        "filters": {
+          "showByActivity": "Show by activity",
+          "showByAction": "Show by action",
+          "taskArrival": "Task arrival",
+          "taskEnd": "End of task"
+        }
+      }
+    },
+    "exceptions": {
+      "unidentifiedError500": "An unidentified error has occurred",
+      "parametersValidationErrors": "Error in parameters",
+      "missingFunctionToHandle": "Missing function to be performed",
+      "entityToUpdateNotFound": "Item to be updated was not found",
+      "entityToDeleteNotFound": "Item to be deleted was not found",
+      "activityTypeNotExpected": "Activity {{name}} is not configured!",
+      "role": {
+        "nameRequired": "Role name is mandatory!",
+        "userIdsRequired": "The role must have at least 01 associated user!",
+        "insertRoleError": "Error when inserting role into database",
+        "insertRoleTransactionError": "Error during role insertion transaction and its associations",
+        "updateRoleTransactionError": "Error during role update transaction and its associations",
+        "roleNameAlreadyExists": "There is already a Role with this name"
+      },
+      "process": {
+        "contentFormRequired": "Form content is mandatory!",
+        "flow": {
+          "missingStartEvent": "Flowchart must have a start event",
+          "tooManyStartEvents": "Flowchart must have only one start event",
+          "startEventMissingOutgoing": "Start event must have a destination path",
+          "startEventHaveMoreThanOneOutgoing": "Start Activity cannot have 02 destination paths",
+          "missingEndEvent": "Flowchart must have at least one end event",
+          "endEventMissingIncoming": "End event '{{id}}' must have a source path",
+          "userTaskMissingExecutorType": "User task '{{id}}' must have an executor type",
+          "userTaskMissingExecutorId": "User task '{{id}}' must have an executor",
+          "userTaskMissingOptions": "User task '{{id}}' must have at least one advance option",
+          "userTaskMissingOutgoing": "User task '{{id}}' must have a destination path",
+          "userTaskMissingIncoming": "User task '{{id}}' must have a source path",
+          "userTaskHaveMoreThanOneOutgoing": "User task '{{id}}' has 02 destination paths",
+          "sendTaskMissingDestinataryType": "Notification task '{{id}}' must have a recipient type",
+          "sendTaskMissingDestinataryId": "Notification task '{{id}}' must have a recipient",
+          "sendTaskMissingOutgoing": "Notification task '{{id}}' must have a destination path",
+          "sendTaskMissingIncoming": "Notification task '{{id}}' must have a source path",
+          "sendTaskHaveMoreThanOneOutgoing": "Notification task '{{id}}' has 02 destination paths",
+          "exclusiveGatewayMissingIncoming": "Exclusive gateway '{{id}}' must have a source path",
+          "exclusiveGatewayMissingOutgoing": "Exclusive gateway '{{id}}' must have at least one destination path",
+          "exclusiveGatewayOutgoingNotAssociated": "All targets of Simple Condition '{{id}}' must have an associated option",
+          "signerIntegrationTaskMissingOutgoing": "S-Sign integration task '{{id}}' must have a destination path",
+          "signerIntegrationTaskMissingIncoming": "S-Sign integration task '{{id}}' must have a source path",
+          "signerIntegrationTaskHaveMoreThanOneOutgoing": "S-Sign integration task '{{id}}' has 02 destination paths"
+        }
+      },
+      "processVersion": {
+        "nameRequired": "Process name is required!",
+        "rolesIdsRequired": "The role must have at least 01 associated role!",
+        "contentDiagramRequired": "Diagram content is mandatory!",
+        "saveGetProcessError": "An error occurred fetching the process while trying to save the process version",
+        "saveInsertProcessError": "An error occurred entering the process while trying to save the process version",
+        "saveTransactionError": "Error during transaction saving process version and its associations",
+        "saveNameDuplicate": "This name is already being used by another process.",
+        "mandatoryFieldForIntegrationWithSignerError": "The field \"{{nameField}}\" is a mandatory data source for the S-Sign integration and must be mandatory in at least one activity before the integration",
+        "integrationActivityWithoutConfiguring": "There are {{numberOfSignerIntegration}} integration(s) with S-Sign, but not all configured, activities configured {{numberOfSignerIntegrationConfigured}}"
+      },
+      "integration": {
+        "signer": {
+          "missingIntegrationToken": "Integration token with S-sign not configured",
+          "envelopeidssignnotfound": "Envelope id not informed",
+          "envelopessignnotfound": "Envelope not found",
+          "actionenvelopessingnotfound": "Envelope action different than expected",
+          "fileFieldAssociatedToMoreThanOneIntegrationActivity": "The file field {{duplicatedField}} must be associated with only 01 S-Sign integration activity"
+        }
+      }
+    },
+    "pt": "Portuguese",
+    "en": "English",
+    "es": "Spanish",
+    "required": "(Required)",
+    "optional": "(Optional)",
+    "loading": "Loading",
+    "wildcards": {
+      "requester": "Requester",
+      "flowNumber": "Flow Number",
+      "process": "Process",
+      "requestDate": "Request date",
+      "translateUserInput": {
+        "checkboxChecked": "Sim",
+        "checkboxUnmarked": "Não"
+      }
+    }
+  }

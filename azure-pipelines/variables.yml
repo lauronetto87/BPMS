@@ -1,0 +1,6 @@
+variables:
+  version: 1.7.0
+  module: ibpms
+  instanceIdDEV: i-0520d592d7614629e
+  instanceIdHOM: i-08fadb5129b9f0689
+  BuildConfiguration: Release

@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+	<PackageReference Include="DotJEM.Json.Visitor" Version="0.1.25" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SatelittiBpms.Models\SatelittiBpms.Models.csproj" />
+    <ProjectReference Include="..\SatelittiBpms.Repository.Interfaces\SatelittiBpms.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\SatelittiBpms.Repository\SatelittiBpms.Repository.csproj" />
+    <ProjectReference Include="..\SatelittiBpms.Services.Interfaces\SatelittiBpms.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\SatelittiBpms.Storage\SatelittiBpms.Storage.csproj" />
+    <ProjectReference Include="..\SatelittiBpms.Translate\SatelittiBpms.Translate.csproj" />
+    <ProjectReference Include="..\SatelittiBpms.Utilities\SatelittiBpms.Utilities.csproj" />
+    <ProjectReference Include="..\SatelittiBpms.Workflow\SatelittiBpms.Workflow.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\SatelittiBpms.Analyzers\SatelittiBpms.Analyzers\SatelittiBpms.Analyzers.csproj">
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+			<OutputItemType>Analyzer</OutputItemType>
+		</ProjectReference>
+	</ItemGroup>
+
+</Project>

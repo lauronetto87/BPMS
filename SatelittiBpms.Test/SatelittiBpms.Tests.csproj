@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Bogus" Version="34.0.1" />
+		<PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.2" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.2" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+		<PackageReference Include="Moq" Version="4.16.1" />
+		<PackageReference Include="NUnit" Version="3.13.2" />
+		<PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+		<PackageReference Include="coverlet.collector" Version="3.1.2">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="System.Collections" Version="4.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\SatelittiBpms.Authentication\SatelittiBpms.Authentication.csproj" />
+		<ProjectReference Include="..\SatelittiBpms.Data\SatelittiBpms.Data.csproj" />
+		<ProjectReference Include="..\SatelittiBpms.FluentDataBuilder\SatelittiBpms.FluentDataBuilder.csproj" />
+		<ProjectReference Include="..\SatelittiBpms.Repository\SatelittiBpms.Repository.csproj" />
+		<ProjectReference Include="..\SatelittiBpms.Services\SatelittiBpms.Services.csproj" />
+		<ProjectReference Include="..\SatelittiBpms.VersionNormalization\SatelittiBpms.VersionNormalization.csproj" />
+		<ProjectReference Include="..\SatelittiBpms.Workflow\SatelittiBpms.Workflow.csproj" />
+		<ProjectReference Include="..\SatelittiBpms\SatelittiBpms.csproj" />
+	</ItemGroup>
+
+</Project>

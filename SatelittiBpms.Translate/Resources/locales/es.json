@@ -1,0 +1,999 @@
+{
+  "codex": {
+    "notification": {
+      "title": "Notificaciones",
+      "empty": "No Notificaciones",
+      "settingTitle": "Configuración de las notificaciones"
+    },
+    "filter": {
+      "filter": "Filtro",
+      "clearFilter": "Limpiar el filtro",
+      "applyFilter": "Aplique",
+      "messageFilterRequired": "Los campos con * son obligatorios",
+      "minimumDateValidation": "La fecha mínima permitida es ",
+      "formatDate": "dd.mm.yyyy"
+    },
+    "bar-filter": {
+      "filtering": "Filtrando los elementos"
+    },
+    "dropdown": {
+      "searchTextNotFound": "\"{{searchedValue}}\" no se encuentra",
+      "clearDropdownItem": "Selección clara"
+    },
+    "datePickerComponent": {
+      "datePickerPlaceholder": "dd/mm/aaaa"
+    },
+    "blankslate": {
+      "button": "El botón de la placa en blanco"
+    },
+    "asideLeft": {
+      "ca": "Codex",
+      "buttons": "Buttons",
+      "blankslate": "Blanklate",
+      "card": "Card",
+      "cardCollapse": "Card Collapse",
+      "checkbox": "Checkbox",
+      "chip": "Chip",
+      "datePicker": "Date picker",
+      "dropdown": "Dropdown",
+      "filter": "Filter",
+      "form": "Forms",
+      "infiniteScroll": "Infinite Scroll",
+      "inputSearch": "Input Search",
+      "layout": "Layout",
+      "message": "Message",
+      "onboarding": "Onboarding",
+      "stepper": "Stepper",
+      "table": "Table",
+      "tabs": "Tabs",
+      "tag": "Tag",
+      "upload": "Upload",
+      "signOut": "Out",
+      "icon": "Icon",
+      "grid": "Grid",
+      "toast": "Toast"
+    },
+    "card": {
+      "button": "button",
+      "buttonOne": "button 1",
+      "buttonTwo": "button 2"
+    },
+    "cardSelect": {
+      "apple": "Maça",
+      "pepper-hot": "Pimenta",
+      "carrot": "Cenoura",
+      "lemon": "Limão"
+    },
+    "tag": {
+      "default": "Padrão",
+      "tooltip": "tooltip",
+      "primary": "Primária",
+      "info": "Informação",
+      "warning": "Aviso",
+      "success": "Sucesso",
+      "danger": "Perigo",
+      "icon": "Icon"
+    },
+    "checkbox": {
+      "span": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "description": "Optional description small"
+    },
+    "navbarUser": {
+      "buttonViewer": "Volver al principio",
+      "signOut": "Salir",
+      "Language": "Lenguajes"
+    },
+    "chip": {
+      "primary": "primaria",
+      "secondary": "secundaria",
+      "remove": "quitar"
+    },
+    "chipContainer": {
+      "chip": "Chip",
+      "chipMultisect": "Chip multiselect"
+    },
+    "inputChip": {
+      "placeholderText": "Comma or enter"
+    },
+    "inputDisabled": {
+      "label": "Label",
+      "small": "We'll never share your email with anyone else."
+    },
+    "datePicker": {
+      "title": "Date Picker Range"
+    },
+    "onboarding": {
+      "onboarding": {
+        "title": "Onboarding Capa Exemplo Codex",
+        "subtitle": "Escreva uma breve explicação do que vai estar no onboarding.",
+        "btnPrimary": "Conhecer as novidades",
+        "btnSecondary": "Mais tarde"
+      },
+      "onboarding1": {
+        "title": "Index 1",
+        "subtitle": "Escreva um texto de no máximo três linhas para o texto não ficar muito longo e acabar deixando o layout carregado.",
+        "btnPrimary": "Próximo",
+        "btnSecondary": "Voltar"
+      },
+      "onboarding2": {
+        "title": "Index 2",
+        "subtitle": "Escreva um texto de no máximo três linhas para o texto não ficar muito longo e acabar deixando o layout carregado.",
+        "btnPrimary": "Próximo",
+        "btnSecondary": "Voltar"
+      },
+      "onboarding3": {
+        "title": "Index 3",
+        "subtitle": "Escreva um texto de no máximo três linhas para o texto não ficar muito longo e acabar deixando o layout carregado.",
+        "btnPrimary": "Próximo",
+        "btnSecondary": "Voltar"
+      }
+    },
+    "stepperVertical": {
+      "title": "Title",
+      "description": "Description",
+      "info1": "info 1",
+      "info2": "info 2",
+      "info3": "info 3",
+      "info4": "info 4"
+    },
+    "bar-search": {
+      "searchingFor": "Buscando por \"<strong>{{searchedValue}}</strong>\""
+    },
+    "stepperHorizontal": {
+      "done": "Done",
+      "active": "Active",
+      "disabled": "Disabled"
+    },
+    "tabs": {
+      "default": "Default",
+      "badge": "Badge",
+      "badgeSuccess": "Badge success",
+      "badgeWaringn": "Badge warning",
+      "badgeDanger": "Badge danger"
+    },
+    "menu": "Menu"
+  },
+    "defaultFormat": {
+      "date": "dd.mm.yyyy",
+      "dateTime": "dd/MM/yyyy"
+    },
+    "menu": {
+      "ca-flows": "Solicitud de flujo",
+      "ca-processes": "Crear Proceso",
+      "suite": "Suite",
+      "flows": "Flujos",
+      "settings": "Ajustes",
+      "processes": "Procesos"
+    },
+    "settings": {
+      "title": "Ajustes",
+      "tabs": {
+        "roles": "Roles"
+      },
+      "roles": {
+        "labels": {
+          "createNew": "crear rol",
+          "table": {
+            "header": {
+              "roleName": "Nombre de rol"
+            }
+          },
+          "blankslate": {
+            "message": "Cree nuevos roles para vincular a sus usuarios y dirigir procesos a ellos.",
+            "button": "Crear Rol"
+          },
+          "tooltips": {
+            "viewAndEdit": "Ver y editar",
+            "delete": "Eliminar rol",
+            "blankslate": "Los roles se utilizan para insertar usuarios en él y al crear procesos o solicitar, se lo dirigirá a este grupo de roles creados"
+          },
+          "messages": {
+            "successfullyDeleted_singular": "¡Rol eliminado con éxito!",
+            "successfullyDeleted_plural": "¡Roles eliminados con éxito!"
+          },
+          "modals": {
+            "confirm-delete": {
+              "headerText": "Confirmar la eliminación",
+              "questionText_singular": "¿Quiere eliminar el rol seleccionado?",
+              "questionText_plural": "¿Quieres eliminar los roles seleccionados?",
+              "messageText": "",
+              "confirm": "SÍ",
+              "cancel": "NO"
+            }
+          }
+        },
+        "form": {
+          "labels": {
+            "createTitle": "Crear rol",
+            "viewAndEditTitle": "Ver y editar",
+            "description": "DAR UN NOMBRE PARA EL PAPEL E INSERTAR USUARIOS EN ELLO",
+            "roleName": "Nombre de rol",
+            "roleNamePlaceholder": "Ej .: Financiero",
+            "users": "USUARIOS",
+            "roleUsers": "USUARIOS DE PAPEL",
+            "addUserToRole": "INSERTAR EN PAPEL",
+            "finishCreation": "FINALIZAR LA CREACIÓN",
+            "saveChange": "GUARDAR CAMBIOS",
+            "table": {
+              "usersHeader": "Nombre de usuario",
+              "roleUsersHeader": "Nombre de usuario en función"
+            },
+            "tooltips": {
+              "description": "Cree un nombre para este rol, agréguele usuarios y apunte los procesos para este nicho de usuarios",
+              "users": "La suite Satellite ha agregado usuarios a la lista. Para configurar estos, es necesario volver a la administración de la suite.",
+              "roleUsers": "Aquí se enumerarán los usuarios agregados para ese rol.",
+              "deleteUser": "Quitar al usuario de la función"
+            },
+            "messages": {
+              "successfullyRemoved": "¡Usuario eliminado correctamente!",
+              "userRequired": "¡Asigne al menos 01 usuario a este rol!",
+              "roleAlreadyExists": "¡Ya existe un rol con este nombre!",
+              "successfullyCreated": "Rol creado con éxito",
+              "successfullyChanged": "Rol cambiado exitosamente"
+            },
+            "modals": {
+              "confirm-back": {
+                "headerText": "Confirmar Volver",
+                "questionText": {
+                  "create": "¿Realmente desea cancelar la creación de roles?",
+                  "edit": "¿Realmente desea cancelar la edición de roles?"
+                },
+                "messageText": "No se guardará toda la información completada.",
+                "confirm": "SÍ",
+                "cancel": "NO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "processes": {
+      "title": "Procesos",
+      "tabs": {
+        "all": "Todos"
+      },
+      "labels": {
+        "createNew": "Crear nuevo proceso",
+        "changeToGridMode": "Ver en cuadrícula",
+        "changeToListMode": "Ver en lista",
+        "changeSortOrderToAscending": "Más reciente",
+        "changeSortOrderToDescending": "Más antiguo",
+        "detailCardButton": "Detalle",
+        "editCardButton": "Editar",
+        "runCardButton": "Ejecutar",
+        "creationDate": "Creado",
+        "createBy": "Creado por",
+        "lastChangeDate": "Ultimo cambio",
+        "additionalInformation": "Informaciones adicionales",
+        "status": {
+          "description": "Status",
+          "editing": "Edición",
+          "published": "Publicado"
+        },
+        "blankslateNoItems": {
+          "message": "Crea nuevos procesos, publícalos para que otros puedan solicitar y realizar tareas destinadas a ellos.",
+          "button": "CREAR NUEVO PROCESO"
+        },
+        "blankslateNoSearchResult": {
+          "message": "No encontramos ningún proceso relacionado con su búsqueda."
+        },
+        "steps": {
+          "settings": "Ajustes",
+          "flow": "Flujo",
+          "review": "Revisión",
+          "form": "Formulario",
+          "ssignintegration": "Integración S-SIGN"
+        }
+      },
+      "newProcess": {
+        "labels": {
+          "createTitle": "Crear nuevo proceso",
+          "templateTitle": "Proceso de creación",
+          "viewAndEditTitle": "Ver y editar",
+          "saveAndContinueLater": "GUARDAR",
+          "next": "AVANCE",
+          "publish": "PUBLICAR",
+          "back": "REGRESO",
+          "createNewProcessFromScratch": "Crear un nuevo proceso desde cero",
+          "vacationRequestFromScratch": "Solicitud de vacaciones",
+          "modals": {
+            "confirm-back": {
+              "headerText": "Confirmar Volver",
+              "questionText": {
+                "template": "¿Realmente quiero cancelar la elección?",
+                "create": "¿Realmente desea cancelar la creación de proceso?",
+                "edit": "¿Realmente desea cancelar la edición de proceso?"
+              },
+              "messageText": "La información no guardada se perderá.",
+              "confirm": "SÍ",
+              "cancel": "NO"
+            },
+            "confirm-delete": {
+              "headerText": "Estás eliminando una tarea",
+              "messageText": "Al eliminar la tarea, también se eliminarán todas las configuraciones relacionadas con ella",
+              "confirm": "ELIMINAR",
+              "cancel": "CANCELAR"
+            }
+          }
+        },
+        "forms": {
+          "settings": {
+            "labels": {
+              "description": "AJUSTES DE PROCESO",
+              "processName": "Nombre del proceso",
+              "processNamePlaceholder": "Por ejemplo: Solicitud de vacaciones",
+              "processDescription": "Descripción del proceso",
+              "processDescriptionPlaceholder": "Descripción",
+              "processDescriptionFlow": "Descripción del flujo",
+              "processDescriptionFlowPlaceholder": "Descripción",
+              "rolesThatCanBeRequest": "ROLES QUE PUEDEN SOLICITAR ESTE PROCESO",
+              "table": {
+                "rolesHeader": "Nombre de rol"
+              },
+              "tooltips": {
+                "description": "Cree un nombre para este rol, agréguele usuarios y apunte los procesos para este nicho de usuarios",
+                "rolesThatCanBeRequest": "Seleccione los roles a los que se les permitirá solicitar este proceso",
+                "descriptionFlow": "Se pueden utilizar comodines (# o @) en este campo, con # para información fija y @ para campos de formulario."
+              }
+            }
+          },
+          "flow": {
+            "modeler": {
+              "task": "Tarea",
+              "addLaneAbove": "Agregar carril arriba",
+              "addLaneBelow": "Agregar carril a continuación",
+              "activeLassoTool": "Activar la herramienta lazo",
+              "activeSpaceTool": "Activar la herramienta crear/eliminar espacio",
+              "createGeneric": "Crear {type}",
+              "createStartEvent": "Crear evento de inicio",
+              "createEndEvent": "Crear evento final",
+              "createUserTask": "Crear tarea de usuario",
+              "createPool": "Crear piscina",
+              "createSendTask": "Crear tarea de notificación",
+              "createExclusiveGateway": "Crear condición simple",
+              "createSignerTask": "Crear tarea de integración con S-Sign",
+              "appendGeneric": "Agregar {type}",
+              "appendEndEvent": "Agregar evento final",
+              "appendExclusiveGateway": "Agregar condición simple",
+              "appendUserTask": "Agregar tarea de usuario",
+              "appendNotificationTask": "Agregar tarea de notificación",
+              "appendSignerTask": "Agregar tarea de integración de S-Sign",
+              "connectArrow": "Conectar",
+              "remove": "Eliminar",
+              "resetZoom": "Centralizar",
+              "zoomIn": "Acercarse",
+              "zoomOut": "Disminuir el zoom",
+              "modals": {
+                "general": {
+                  "nameOf": "Nombre de la {{type}}",
+                  "nameOfPlaceHolder": "Cual es el nombre de esta {{type}}?",
+                  "typeName": "tarea"
+                },
+                "startEventModal": {
+                  "headerText": "Evento de inicio"
+                },
+                "participantModal": {
+                  "headerText": "Piscina",
+                  "typeName": "piscina"
+                },
+                "endEventModal": {
+                  "headerText": "Evento final"
+                },
+                "sequenceFlowModal": {
+                  "headerText": "Secuencia de flujo",
+                  "option": "Opción que debe ser seleccionada por el usuario para que el flujo siga este camino",
+                  "optionPlaceholder": "Seleccione una opción"
+                },
+                "exclusiveGatewayModal": {
+                  "headerText": "Decisión simple"
+                },
+                "userTaskModal": {
+                  "headerText": "Actividad del usuario",
+                  "selectAnExecutorType": "Seleccione un tipo de ejecutor",
+                  "selectAnExecutor": "Seleccione un {{executorType}}",
+                  "selectAnRole": "Seleccione un Rol",
+                  "selectAnPerson": "Seleccione una Persona",
+                  "optionsToShow": "¿Qué opciones debería ver el usuario para completar esta tarea?",
+                  "optionsToShowHelper": "Escriba una coma o presione Enter para insertar una nueva opción.<br>Introduzca una o más. El usuario verá esas opciones como botones.",
+                  "optionsToShowHelperChip": "Ej.: Aprobar, Desaprobar",
+                  "optionsPlaceholder": "Separe las opciones por ','",
+                  "taskExecutor": {
+                    "type": "Tipo de ejecutor",
+                    "executorAssignedToTask": "¿Qué {{executorType}} se asignará a esta tarea?",
+                    "labelRole": "¿Qué Rol se asignará a esta tarea?",
+                    "labelPerson": "¿Quién realizará esta tarea?",
+                    "types": {
+                      "requester": "Solicitante",
+                      "role": "Rol",
+                      "person": "Persona"
+                    }
+                  }
+                },
+                "notificationTaskModal": {
+                  "headerText": "Actividad de notificación",
+                  "titleMessage": "Título del mensaje",
+                  "message": "mensaje",
+                  "selectAnDestinataryPerson": "Seleccione una persona",
+                  "selectAnDestinataryRole": "Seleccione un papel",
+                  "selectAnDestinataryType": "Seleccione un tipo de destinatario",
+                  "taskDestinatary": {
+                    "type": "Tipo de destinatario",
+                    "destinataryAssignedToTask": "Destinatario",
+                    "destinataryToShowHelper": "Se enviará un correo electrónico a los usuarios del rol seleccionado.",
+                    "email": "E-mail",
+                    "types": {
+                      "requester": "Solicitante",
+                      "role": "Papel",
+                      "person": "Persona",
+                      "custom": "Personalizado"
+                    }
+                  }
+                },
+                "laneModal": {
+                  "headerText": "Carril",
+                  "selectAnExecutorType": "Seleccione un tipo de ejecutor",
+                  "selectAnExecutorRole": "Seleccione un papel",
+                  "selectAnExecutorPerson": "Seleccione una persona",
+                  "taskExecutor": {
+                    "type": "Tipo de ejecutor",
+                    "executorAssignedToTask": "¿Qué {{executorType}} se asignará a esta carril?",
+                    "types": {
+                      "requester": "Solicitante",
+                      "role": "Rol",
+                      "person": "Persona"
+                    }
+                  }
+                },
+                "signerModal": {
+                  "headerText": "Actividad de Integración S-Sign",
+                  "optionsToShowHelper": "La configuración de la tarea se realizará en el paso de creación del proceso denominado Integración con S-Sign."
+                }
+              }
+            }
+          },
+          "form": {
+            "labels": {
+              "Fields": "Campos",
+              "Drag and Drop a form component": "Arrastrar y soltar un componente de formulario",
+              "Text Field": "Campo de texto",
+              "Email": "Correo electrónico",
+              "Text Area": "Área de texto",
+              "Number": "Número",
+              "Date / Time": "Fecha y hora",
+              "Checkbox": "Opción multiple",
+              "Currency": "Moneda",
+              "Select": "Cuadro de selección",
+              "Radio": "Selección única",
+              "Display": "Exposición",
+              "Label": "Etiqueta",
+              "File": "Documento adjunto",
+              "The label for this field that will appear next to it.": "La etiqueta de este campo que aparecerá junto a él.",
+              "Placeholder": "Marcador de posición",
+              "The placeholder text that will appear when this field is empty.": "El texto del marcador de posición que aparecerá cuando este campo esté vacío.",
+              "Tooltip": "Descripción emergente",
+              "To add a tooltip to this field, enter text here.": "Para agregar una información sobre herramientas a este campo, ingrese el texto aquí.",
+              "Adds a tooltip to the side of this field.": "Agrega una información sobre herramientas al costado de este campo.",
+              "Save": "Ahorrar",
+              "Cancel": "Cancelar",
+              "Remove": "Eliminar",
+              "Rows": "Filas",
+              "Multiple Values": "Varios valores",
+              "Default Value": "Valor por defecto",
+              "Data Source Values": "Valores de fuente de datos",
+              "Value": "Valor",
+              "Add Another": "Agrega otro",
+              "Data": "Datos",
+              "Shortcut": "Atajo",
+              "Values": "Valores",
+              "error": "Corrija los siguientes errores antes de enviar.",
+              "invalid_date": "{{field}} no es una fecha válida.",
+              "invalid_email": "{{field}} debe ser un correo electrónico válido.",
+              "invalid_regex": "{{field}} no coincide con el patrón {{regex}}.",
+              "mask": "{{field}} no coincide con la máscara.",
+              "max": "{{field}} no puede ser mayor que {{max}}.",
+              "maxLength": "{{field}} debe ser más corto que {{length}} characters.",
+              "min": "{{field}} no puede ser menor que {{min}}.",
+              "minLength": "{{field}} Debe ser más largo que {{length}} characters.",
+              "next": "Siguiente",
+              "pattern": "{{field}} no coincide con el patrón {{pattern}}",
+              "previous": "Previo",
+              "required": "{{field}} es requerido",
+              "array_nonempty": "{{field}} debe contener al menos un archivo.",
+              "Conditional": "Condicional",
+              "Simple": "Sencillo",
+              "This component should Display:": "Este componente debe mostrar:",
+              "When the form component:": "Cuando el componente de formulario:",
+              "Has the value:": "Tiene el valor:",
+              "True": "Verdadero",
+              "False": "Falso",
+              "Text Field (textField)": "Campo de Texto",
+              "Type to search": "Escribe para buscar",
+              "Data Source Type": "Tipo de fuente de datos",
+              "Data Source URL": "URL de la fuente de datos",
+              "Lazy Load Data": "Datos de carga diferida",
+              "Request Headers": "Encabezado de solicitud",
+              "Value Property": "Propiedad de valor",
+              "The selected item's property to save.": "Propiedad del elemento seleccionado para guardar.",
+              "Disable limiting response": "Deshabilitar la respuesta de limitación",
+              "Search Query Name": "Nombre de la consulta de búsqueda",
+              "Name of URL query parameter": "Nombre del parámetro de consulta de URL",
+              "Filter Query": "Filtro de Consulta",
+              "The filter query for results.": "La consulta de filtro de resultados.",
+              "Sort Query": "Ordenar consulta",
+              "The sort query for results": "La consulta de clasificación de resultados",
+              "Limit": "Limite",
+              "Maximum number of items to view per page of results.": "Número máximo de itens para visualizar por página de resultados.",
+              "Formio Authenticate": "Formio Autenticado",
+              "Disables Storing Request Result in the Cache": "Deshabilita el resultado de la solicitud de almacenamiento en la caché",
+              "Key": "Llave",
+              "Resource": "Recurso",
+              "Custom": "Personalizado",
+              "Raw Json": "Json Crudo",
+              "IndexedDB": "IndexedDB",
+              "Add Resource": "Agregar Recurso",
+              "Save as reference": "Guardar como referencia",
+              "Custom Values": "Valores Personalizados",
+              "Data Source Raw JSON": "Fuente de datos JSON sin procesar",
+              "Database name": "Nombre de la base de datos",
+              "Table name": "Nombre de la tabla",
+              "Row Filter": "Filtro de fila",
+              "Data Path": "Ruta de datos",
+              "The object path to the iterable items.": "La ruta del objeto a los elementos iterables.",
+              "Item Template": "Plantilla de artículo",
+              "Organization": "Organizácia",
+              "Tabs": "Pestañas",
+              "Columns": "Columnas",
+              "Table": "Tabla",
+              "activities": "Actividades",
+              "activity": "Actividad",
+              "visibility": "Visibilidad",
+              "fieldViewUser": {
+                "types": {
+                  "editable": "Editable",
+                  "required": "Requerido",
+                  "readonly": "Solo leyendo",
+                  "invisible": "Invisible"
+                }
+              },
+              "File Minimum Size": "Tamaño Mínimo de Archivo",
+              "File Maximum Size": "Tamaño Máximo de Archivo",
+              "File Name": "Nombre del Archivo",
+              "Size": "Tamaño",
+              "Drop files to attach,": "Suelta archivos para adjuntar,",
+              "or": "o",
+              "browse": "Navegar",
+              "File with the same name is already uploaded": "El archivo con el mismo nombre ya está cargado",
+              "Field Label": "Etiqueta de Campo",
+              "Preview": "Preestreno",
+              "File is too big; it must be at most {{ size }}": "El archivo es demasiado grande; debe ser como máximo {{ size }}",
+              "File is too small; it must be at least {{ size }}": "El archivo es demasiado pequeño; debe ser por lo menos {{ size }}",
+              "Processing file. Please wait...": "Archivo de procesamiento. Espere por favor...",
+              "File is the wrong type; it must be {{ pattern }}": "¡Archivo inválido! Solo se permiten .pdf, .doc y .docx.",
+              "File Service not provided.": "Servicio de archivo no proporcionado.",
+              "Starting upload.": "Iniciando carga.",
+              "File processing has been failed.": "El procesamiento del archivo ha fallado.",
+              "This allows control over how many rows are visible in the text area.": "Esto permite controlar cuántas filas están visibles en el área de texto.",
+              "Component": "Componente",
+              "No choices to choose from": "No hay opciones para elegir",
+              "Allows multiple values to be entered for this field.": "Permite introducir múltiples valores para este campo.",
+              "The source to use for the select data. Values lets you provide your own values and labels. JSON lets you provide raw JSON data. URL lets you provide a URL to retrieve the JSON data from.": "El origen que se utilizará para los datos seleccionados. Valores le permite proporcionar sus propios valores y etiquetas. JSON le permite proporcionar datos JSON sin procesar. URL le permite proporcionar una URL para recuperar los datos JSON.",
+              "The will be the value for this field, before user interaction. Having a default value will override the placeholder text.": "El será el valor de este campo, antes de la interacción del usuario. Tener un valor predeterminado anulará el texto del marcador de posición.",
+              "Values to use as the data source. Labels are shown in the select field. Values are the corresponding values saved with the submission.": "Valores que se utilizarán como fuente de datos. Las etiquetas se muestran en el campo de selección. Los valores son los valores correspondientes guardados con el envío.",
+              "The HTML template for the result data items.": "La plantilla HTML para los elementos de datos de resultados.",
+              "The radio button values that can be picked for this field. Values are text submitted with the form data. Labels are text that appears next to the radio buttons on the form.": "Los valores del botón de opción que se pueden elegir para este campo. Los valores son texto enviado con los datos del formulario. Las etiquetas son texto que aparece junto a los botones de radio en el formulario.",
+              "The shortcut key for this option.": "La tecla de acceso directo para esta opción.",
+              "See <a href='https://github.com/danialfarid/ng-file-upload#full-reference' target='_blank'>https://github.com/danialfarid/ng-file-upload#full-reference</a> for how to specify file sizes.": "Define el tamaño máximo y mínimo de los archivos a cargar, acepta las abreviaturas B, KB y MB. Ejemplo 10B, 10KB y 10MB.",
+              "The width, offset, push, and pull settings for each column.": "Configuraciones de ancho para cada columna.",
+              "Enter the number or rows that should be displayed by this table.": "Introduzca el número o las filas que debe mostrar esta tabla.",
+              "Enter the number or columns that should be displayed by this table.": "Introduzca el número o las columnas que debe mostrar esta tabla.",
+              "Removing this component will also remove all of its children. Are you sure you want to do this?": "Al eliminar este componente, también se eliminarán todos sus elementos secundarios. ¿Seguro que quieres hacer esto?",
+              "Column Properties": "Columnas",
+              "Width": "Ancho",
+              "Offset": "Desplaziamento",
+              "Push": "Empuja",
+              "Pull": "Tirar",
+              "Add Column": "Agregar Columna",
+              "Number of Rows": "Número de Filas",
+              "Number of Columns": "Número de Columnas",
+              "Edit": "Editar",
+              "Move": "Muevete",
+              "Edit JSON": "Editar Json",
+              "Paste below": "Pegar debajo",
+              "Copy": "Dupdo",
+              "Content": "Texto/Imagen",
+              "Component JSON": "Componente JSON",
+              "Edit the JSON for this component.": "Editar el JSON para este componente.",
+              "Full Schema": "Esquema Completo",
+              "Help": "Ayuda",
+              "invalidCpf": "CPF no válido!",
+              "invalidCnpj": "CNPJ no válido!"
+            },
+            "validations": {
+              "file": {
+                "maxSizeError": "El tamaño del archivo no puede ser superior a 200MB",
+                "maxSizeErrorSign": "El tamaño del archivo no puede ser superior a 45MB",
+                "lessThanZeroError": "El valor no puede ser menor que cero.",
+                "minSizeError": "El archivo debe ser más grande que 1B",
+                "invalidNumber": "El valor no es válido, informe el número en bytes o utilice las abreviaturas B, KB y MB. Ejemplo 10B, 10KB y 10MB"
+              },
+              "signer": {
+                "fieldWithEditableVisibilityNotAllowed": "El campo {{field}} es una fuente de datos obligatoria para la integración de S-Sign y debe completarse de forma que no sea Editable."
+              }
+            },
+            "settings": {
+              "configurationViewOptions": "Configuración de Visibilidad"
+            },
+            "modals": {
+              "formFieldViewUserTaskModal": {
+                "headerText": "Configuración de visibilidad",
+                "activity": "Actividad",
+                "selectAnActivity": "Seleccionar una actividad",
+                "selectAnVisibility": "Seleccione una opción de visibilidad",
+                "blankslateNoItems": "¡No hay campos agregados al formulario o no hay ningún formulario registrado para el proceso!",
+                "save": "Guardar",
+                "cancel": "Cancelar",
+                "fields": "Campos",
+                "fieldViewUser": {
+                  "types": {
+                    "editable": "Editable",
+                    "required": "Requerido",
+                    "readonly": "Solo leyendo",
+                    "invisible": "Invisible"
+                  }
+                },
+                "table": {
+                  "fieldsHeader": "Nombre del campo",
+                  "visibilityHeader": "Visibilidad"
+                }
+              }
+            }
+          },
+          "review": {
+            "general": {
+              "title": "GENERAL",
+              "processName": "Nombre del proceso",
+              "requestingRoles": "Solicitando roles del proceso",
+              "description": "Descripción del proceso"
+            }
+          },
+          "sign": {
+            "general": {
+              "label": "Configuración de integración de S-SIGN",
+              "labelHelper": "Para configurar las tareas de integracion de S-SIGN, seleccione la tarea que desea configurar. Posteriormente, configure todos los campos necesarios y guarde la configuración. Haga lo mismo con todas las tareas de integración de S-SIGN que se agregaron al diagrama de flujo para continuar con la creación del proceso.",
+              "task": "Tarea de integración de S-SIGN",
+              "taskTitle": "Seleccione la tarea",
+              "taskConfigure": "Configurar la tarea seleccionada",
+              "taskHelper": "Seleccione una tarea de integración de S-SIGN para configurarla.",
+              "taskPlaceholder": "Seleccione una tarea",
+              "attachedFiles": "Archivos adjuntos",
+              "attachedFilesHelper": "Seleccione al menos un campo de carga para que se incluya en el sobre S-SIGN.",
+              "envelopeTitle": "Título del sobre",
+              "envelopeTitleHelper": "Asigne un título al sobre.<br><br>Recuerde que en este campo se pueden utilizar comodines (# o @), siendo @ la información fija y # los campos del formulario.",
+              "envelopeTitlePlaceholder": "Ej: Sobre 01",
+              "expirationDate": "Fecha de expiración",
+              "expirationDateHelper": "Seleccione un campo de formulario que contenga la fecha de caducidad del sobre.<br><br>Recuerde que este campo no es obligatorio.",
+              "expirationDatePlaceholder": "Seleccione un campo correspondiente",
+              "language": "Idioma",
+              "languageHelper": "El contenido principal del email, excepto lo que escribas y el pie de foto de los documentos, se adaptará automáticamente al idioma seleccionado.",
+              "segment": "Segmento",
+              "segmentHelper": "Seleccione el segmento del sobre.<br><br>Recuerde que este campo no es obligatorio.",
+              "segmentPlaceholder": "selecciona un artículo",
+              "sendReminders": "Enviar recordatorios",
+              "sendRemindersHelper": "Los firmantes y autorizadores recibirán notificaciones en sus buzones de correo electrónico hasta que firmen o autoricen el documento.",
+              "formFields": "Campos de formulario",
+              "userTask": "Ejecutor de tareas"
+            },
+            "signatory": {
+              "envelopeSignatories": "Firmantes del sobre",
+              "envelopeSignatoriesHelper": "Configura la información de las personas que deben firmar los documentos del sobre.",
+              "accessAuthentication": "Autenticación de acceso",
+              "accessAuthenticationHelper": "Esta opción ofrece más seguridad a la hora de compartir un documento, ya que se generará un código aleatorio de 6 caracteres, en el que se le preguntará al suscriptor al firmar el documento.<br><br>Recordar que no es obligatorio marcar esta opción.",
+              "numberOfSignatories": "Número de firmantes",
+              "signatory": "Firmante",
+              "signatoryHelper": "Configure la información de este firmante.",
+              "signatoryRegistrationLocation": "¿Cuál es la ubicación del Satelitti que está registrado el firmante?",
+              "signatoryRegistrationLocationHelper": "Entre las opciones, seleccione la ubicación del Satelitti donde está registrado el firmante para que podamos capturar la información principal sobre él.<br><br>Recordando que dependiendo de la ubicación indicada, no tendremos automáticamente toda la información necesaria sobre el firmante, y necesitaremos que nos indique un campo de formulario que contenga cierta información.",
+              "signatoryRegistrationLocationPlaceholder": "Selecciona una ubicación",
+              "signatoryName": "Nombre del firmante",
+              "signatoryNameHelper": "Seleccione la persona para firmar los documentos del sobre.",
+              "signatoryNamePlaceholder": "Selecciona un artículo",
+              "signatoryNamePlaceholderForm": "Seleccione un campo correspondiente",
+              "cpfOfTheSignatory": "CPF del firmante",
+              "cpfOfTheSignatoryHelper": "Seleccione la opción adecuada que informe el CPF del firmante.<br><br>Si el firmante es extranjero y no tiene CPF, seleccione la opción \"Sin CPF\".",
+              "cpfOfTheSignatoryPlaceholder": "Selecciona un artículo",
+              "cpfOfTheSignatoryPlaceholderForm": "Seleccione un campo correspondiente",
+              "withoutCpf": "Sin CPF",
+              "emailOfTheSignatory": "Correo electrónico del firmante",
+              "emailOfTheSignatoryHelper": "Seleccione la opción adecuada que informa el correo electrónico del firmante.",
+              "emailOfTheSignatoryPlaceholder": "Selecciona un artículo",
+              "emailOfTheSignatoryPlaceholderForm": "Seleccione un campo correspondiente",
+              "subscriberType": "Tipo de suscriptor",
+              "subscriberTypeHelper": "Seleccione si el firmante firmará los documentos del sobre como firmante común o como testigo.",
+              "subscriberTypePlaceholder": "Selecciona un artículo",
+              "signatoryType": "Tipo de firma",
+              "signatoryTypeHelper": "Seleccione si el firmante firmará los documentos del sobre como firmante común o como testigo.",
+              "signatoryTypePlaceholder": "Selecciona un artículo",
+              "originActivity": "Ejecutor de tareas",
+              "originActivityHelper": "Seleccione una tarea para que podamos capturar al usuario que la realizó y usar el nombre y la información de correo electrónico.",
+              "originActivityPlaceholder": "Seleccione una tarea de usuario"
+            },
+            "authorizer": {
+              "envelopeAuthorizers": "Autorizadores de sobres",
+              "envelopeAuthorizersHelper": "Si habilita la autorización previa, configure la información de las personas que deben autorizar el (los) documento (s) del sobre.",
+              "enablePriorAuthorizationOfTheDocument": "Habilitar la autorización previa del documento(s)",
+              "enablePriorAuthorizationOfTheDocumentHelper": "Habilite esta opción si hay personas que deben autorizar el (los) documento (s) del sobre.",
+              "accessAuthentication": "Autenticación de acceso",
+              "accessAuthenticationHelper": "Esta opción ofrece más seguridad a la hora de compartir un documento, ya que se generará un código aleatorio de 6 caracteres, en el que se solicitará el autorizador al autorizar el documento.<br><br>Recordar que no es obligatorio seleccionar esta opción.",
+              "numberOfAuthorizers": "Número de autorizadores",
+              "authorizer": "Autorizador",
+              "authorizerHelper": "Configure la información para este autorizador a continuación.",
+              "authorizerRegistrationLocation": "¿Cuál es la ubicación del Satelitti que está registrado el autorizador?",
+              "authorizerRegistrationLocationHelper": "Entre las opciones, seleccione la ubicación del Satelitti donde está registrado el autorizador para que podamos capturar la información principal sobre el mismo.<br><br>Recordando que dependiendo de la ubicación indicada, no tendremos automáticamente toda la información necesaria sobre el autorizador, y necesitaremos que nos indique un campo de formulario que contenga cierta información.",
+              "authorizerRegistrationLocationPlaceholder": "Selecciona una ubicación",
+              "authorizerName": "Nombre del autorizador",
+              "authorizerNameHelper": "Seleccione la persona para autorizar los documentos del sobre.",
+              "authorizerNamePlaceholder": "Selecciona un artículo",
+              "authorizerNamePlaceholderForm": "Seleccione un campo correspondiente",
+              "cpfOfTheAuthorizer": "CPF del autorizador",
+              "cpfOfTheAuthorizerHelper": "Seleccione la opción adecuada que informe el CPF del autorizador.<br><br>Si el autorizador es extranjero y no tiene CPF, seleccione la opción \"Sin CPF\".",
+              "cpfOfTheAuthorizerPlaceholder": "Selecciona un artículo",
+              "cpfOfTheAuthorizerPlaceholderForm": "Seleccione un campo correspondiente",
+              "withoutCpf": "Sin CPF",
+              "emailOfTheAuthorizer": "Correo electrónico del autorizador",
+              "emailOfTheAuthorizerHelper": "Seleccione la opción adecuada que informa el correo electrónico del autorizador.",
+              "emailOfTheAuthorizerPlaceholder": "Selecciona un artículo",
+              "emailOfTheAuthorizerPlaceholderForm": "Seleccione un campo correspondiente",
+              "originActivity": "Ejecutor de tareas",
+              "originActivityHelper": "Seleccione una tarea para que podamos capturar al usuario que la realizó y usar el nombre y la información de correo electrónico.",
+              "originActivityPlaceholder": "Seleccione una tarea de usuario"
+            }
+          },
+          "labels": {
+            "messages": {
+              "processRolesRequired": "¡Asigne al menos 01 rol a este proceso!",
+              "processAlreadyExists": "¡Ya existe un proceso con este nombre!",
+              "successProcessCreated": "Proceso creado con éxito",
+              "successProcessChanged": "Proceso cambiado con éxito",
+              "successProcessSave": "¡Proceso guardado con éxito!"
+            }
+          }
+        }
+      },
+      "eventProcessModal": {
+        "confirm": "Confirmar",
+        "cancel": "Cancelar",
+        "tabs": {
+          "decisions": "Decisiones"
+        }
+      }
+    },
+    "flows": {
+      "loadMore": "CARGA MÁS",
+      "newFlow": {
+        "title": "Solicitar flujo",
+        "modal": {
+          "process": "Proceso",
+          "selectProcess": "Seleccione un proceso",
+          "confirm": "Pedido",
+          "cancel": "Cancelar"
+        }
+      },
+      "groupBy": {
+        "ungrouped": "No Agrupado",
+        "process": "Proceso",
+        "task": "Tarea"
+      },
+      "title": "Flujos",
+      "tabs": {
+        "all": {
+          "headerTitle": "Flujos a seguir",
+          "description": "Para acompañar"
+        },
+        "myTasks": {
+          "headerTitle": "Flujos para que hagas",
+          "description": "Para que lo hagas"
+        }
+      },
+      "labels": {
+        "withMe": "Conmigo",
+        "assignButtonCard": "Conectar",
+        "returnButtonCard": "Devolver",
+        "startDate": "Fecha de inicio",
+        "deadline": "Plazo",
+        "finished": "Finalizado",
+        "responsibleRole": "Esta tarea puede estar asociada a la función {{paper}}",
+        "responsibleWithMe": "Debes realizar esta tarea",
+        "responsibleOtherUser": "Responsable actual: {{user}}",
+        "flowFinished": "Flujo terminado",
+        "role": "Roles",
+        "cpf": "CPF",
+        "cnpj": "CNPJ",
+        "blankslateNoItems": {
+          "message": "No encontramos ninguna tarea relacionada con su usuario."
+        },
+        "blankslateNoSearchResult": {
+          "message": "No encontramos ninguna tarea relacionada con su búsqueda."
+        },
+        "modals": {
+          "confirm-back": {
+            "headerText": "Confirmar Volver",
+            "questionText": "¿Realmente desea cancelar la ejecución de la tarea?",
+            "messageText": "No se guardará toda la información completada.",
+            "confirm": "SÍ",
+            "cancel": "NO"
+          }
+        },
+        "asideRight": {
+          "title": "Detalles",
+          "currentTask": "Tarea actual",
+          "process": "Proceso",
+          "status": "Estado",
+          "inProgress": "En proceso",
+          "finished": "Finalizado",
+          "executor": "Responsable actual",
+          "requester": "Solicitante",
+          "createdDate": "Fecha de solicitud",
+          "finishedDate": "Fecha de terminación",
+          "viewHistory": "Visualizar Historico",
+          "tabs": {
+            "information": "Información",
+            "historic": "Histórico"
+          },
+          "reason": {
+            "title": "¿Por qué estás viendo este flujo?",
+            "youRequest": "Solicitaste este flujo.",
+            "youNeedToRun": "Necesita realizar esta tarea.",
+            "youCanAssociate": "Puede asociar esta tarea a su rol para que la realice.",
+            "youWillRun": "Ejecutará una tarea de esta secuencia.",
+            "yourRoleWillTask": "Su rol realizará una tarea de este flujo.",
+            "youHaveRunTask": "Ha ejecutado una tarea de esta secuencia.",
+            "yourRolePerformedTask": "Su rol realizó una tarea de este flujo."
+          },
+          "file": {
+            "titleFile": "Archivos adjuntos de flujo",
+            "tagTitleFile_singular": "Archivo adjunto",
+            "tagTitleFile_plural": "Archivos adjuntos",
+            "columnTitle": "Nombre del campo",
+            "columnFile": "Archivo",
+            "popover": {
+              "title": "Mas informaciones",
+              "nameTask": "Nombre de la tarea",
+              "nameResponsible": "Responsable",
+              "nameFile": "Archivo"
+            },
+            "tooltip": {
+              "originalFile": "Archivo original",
+              "signedFile": "Archivo firmado",
+              "fileForPrinting": "Archivo de impresión"
+            }
+          }
+        },
+        "flowHistory": {
+          "executeTask": "Ejecutar su Tarea"
+        }
+      },
+      "filter": {
+        "originRequests": {
+          "title": "Origen de las solicitudes",
+          "myRequests": "Sólo mío"
+        },
+        "flows": {
+          "title": "Ocultar Flujos",
+          "finalized": "Finalizado",
+          "alreadyActed": "Ya actuó"
+        },
+        "date": {
+          "titleFlowsFinalized": "Flujos terminados",
+          "titleFlowsRequested": "Flujos solicitados"
+        },
+        "process": {
+          "title": "Proceso"
+        }
+      },
+      "flowHistory": {
+        "process": "Proceso",
+        "description": "Descripción",
+        "table": {
+          "labels": {
+            "system": "Sistema",
+            "request": "Solicitud",
+            "finished": "Terminado",
+            "executorSystem": "SISTEMA"
+          },
+          "headers": {
+            "activity": "Actividad",
+            "executor": "Ejecutor",
+            "arrival": "Llegada",
+            "end": "Fin",
+            "action": "Acción"
+          }
+        },
+        "filters": {
+          "showByActivity": "Mostrar por actividad",
+          "showByAction": "Mostrar por accíon",
+          "taskArrival": "Llegada de la tarea",
+          "taskEnd": "Fim da tarea"
+        }
+      }
+    },
+    "exceptions": {
+      "unidentifiedError500": "Ha ocurrido un error no identificado",
+      "parametersValidationErrors": "Error en los parámetros",
+      "missingFunctionToHandle": "Falta la función a realizar",
+      "entityToUpdateNotFound": "No se encontró el elemento para actualizar",
+      "entityToDeleteNotFound": "No se encontró el elemento a eliminar",
+      "activityTypeNotExpected": "¡La actividad {{name}} no está configurada!",
+      "role": {
+        "nameRequired": "¡El nombre del rol es obligatorio!",
+        "userIdsRequired": "¡El rol debe tener al menos 01 usuario asociado!",
+        "insertRoleError": "Error al insertar rol en la base de datos",
+        "insertRoleTransactionError": "Error durante la transacción de inserción de papel y sus asociaciones",
+        "updateRoleTransactionError": "Error durante la transacción de actualización de roles y sus asociaciones",
+        "roleNameAlreadyExists": "Ya existe un rol con este nombre"
+      },
+      "process": {
+        "contentFormRequired": "¡El contenido del formulario es obligatorio!",
+        "flow": {
+          "missingStartEvent": "El diagrama de flujo debe tener un evento de inicio",
+          "tooManyStartEvents": "El diagrama de flujo debe tener solo un evento de inicio",
+          "startEventMissingOutgoing": "El evento de inicio debe tener una ruta de destino",
+          "startEventHaveMoreThanOneOutgoing": "La actividad de inicio no puede tener 02 rutas de destino",
+          "missingEndEvent": "El diagrama de flujo debe tener al menos un evento final",
+          "endEventMissingIncoming": "El evento final '{{id}}' debe tener una ruta de origen",
+          "userTaskMissingExecutorType": "La tarea de usuario '{{id}}' debe tener un tipo de ejecutor",
+          "userTaskMissingExecutorId": "La tarea de usuario '{{id}}' debe tener un ejecutor",
+          "userTaskMissingOptions": "La tarea de usuario '{{id}}' debe tener al menos una opción avanzada",
+          "userTaskMissingOutgoing": "La tarea de usuario '{{id}}' debe tener una ruta de destino",
+          "userTaskMissingIncoming": "La tarea de usuario '{{id}}' debe tener una ruta de origen",
+          "userTaskHaveMoreThanOneOutgoing": "La tarea de usuario '{{id}}' tiene 02 rutas de destino",
+          "sendTaskMissingDestinataryType": "La tarea de notificación '{{id}}' debe tener un tipo de destinatario",
+          "sendTaskMissingDestinataryId": "La tarea de notificación '{{id}}' debe tener un destinatario",
+          "sendTaskMissingOutgoing": "La tarea de notificación '{{id}}' debe tener una ruta de destino",
+          "sendTaskMissingIncoming": "La tarea de notificación '{{id}}' debe tener una ruta de origen",
+          "sendTaskHaveMoreThanOneOutgoing": "La tarea de notificación '{{id}}' tiene 02 rutas de destino",
+          "exclusiveGatewayMissingIncoming": "La condición simple '{{id}}' debe tener una ruta de origen",
+          "exclusiveGatewayMissingOutgoing": "La condición simple '{{id}}' debe tener al menos una ruta de destino",
+          "exclusiveGatewayOutgoingNotAssociated": "Todos los objetivos de la condición simple '{{id}}' deben tener una opción asociada",
+          "signerIntegrationTaskMissingOutgoing": "La tarea de integración con S-Sign '{{id}}' debe tener una ruta de destino",
+          "signerIntegrationTaskMissingIncoming": "La tarea de integración con S-Sign '{{id}}' debe tener una ruta de origen",
+          "signerIntegrationTaskHaveMoreThanOneOutgoing": "La tarea de integración con S-Sign '{{id}}' tiene 02 rutas de destino"
+        }
+      },
+      "processVersion": {
+        "nameRequired": "¡El nombre del proceso es obligatorio!",
+        "rolesIdsRequired": "¡El rol debe tener al menos 01 rol asociado!",
+        "contentDiagramRequired": "¡El contenido del diagrama es obligatorio!",
+        "saveGetProcessError": "Se produjo un error al obtener el proceso al intentar guardar la versión del proceso.",
+        "saveInsertProcessError": "Se produjo un error al ingresar al proceso al intentar guardar la versión del proceso",
+        "saveTransactionError": "Error durante la versión del proceso de guardado de transacciones y sus asociaciones",
+        "saveNameDuplicate": "Este nombre ya está siendo utilizado por otro proceso.",
+        "mandatoryFieldForIntegrationWithSignerError": "El campo \"{{nameField}}\" es una fuente de datos obligatoria para la integración de S-Sign y debe ser obligatorio en al menos una actividad antes de la integración",
+        "integrationActivityWithoutConfiguring": "Hay {{numberOfSignerIntegration}} integraciones con S-Sign, pero no todas las actividades configuradas {{numberOfSignerIntegrationConfigured}}"
+      },
+      "integration": {
+        "signer": {
+          "missingIntegrationToken": "Token de integración con S-sign no configurado",
+          "envelopeidssignnotfound": "ID de sobre no informado",
+          "envelopessignnotfound": "Identificación del sobre no informada",
+          "actionenvelopessingnotfound": "Acción envolvente diferente a la esperada",
+          "fileFieldAssociatedToMoreThanOneIntegrationActivity": "El campo de archivo {{duplicatedField}} debe estar asociado con solo 01 actividad de integración de S-Sign"
+        }
+      }
+    },
+    "pt": "Portugués",
+    "en": "Inglés",
+    "es": "Español",
+    "required": "(Requerido)",
+    "optional": "(Opcional)",
+    "loading": "Cargando",
+    "wildcards": {
+      "requester": "Solicitante",
+      "flowNumber": "Número de flujo",
+      "process": "Proceso",
+      "requestDate": "Fecha de solicitud",
+      "translateUserInput": {
+        "checkboxChecked": "Sim",
+        "checkboxUnmarked": "Não"
+      }
+    }
+  }

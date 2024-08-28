@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\diagramParseTest_EndEvent.bpmn" />
+    <None Remove="Resources\diagramParseTest_ExclusiveGatewayEvents.bpmn" />
+    <None Remove="Resources\diagramParseTest_SendTaskEvents.bpmn" />
+    <None Remove="Resources\diagramParseTest_StartAndEndEvents.bpmn" />
+    <None Remove="Resources\diagramParseTest_StartAndEndEventsAndSendTask.bpmn" />
+    <None Remove="Resources\diagramParseTest_StartEndSendUser.bpmn" />
+    <None Remove="Resources\diagramParseTest_StartEvent.bpmn" />
+    <None Remove="Resources\diagramParseTest_UserTaskEvents.bpmn" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\diagramParseTest_EndEvent.bpmn" />
+    <EmbeddedResource Include="Resources\diagramParseTest_StartEndSendUser.bpmn" />
+    <EmbeddedResource Include="Resources\diagramParseTest_ExclusiveGatewayEvents.bpmn" />
+    <EmbeddedResource Include="Resources\diagramParseTest_UserTaskEvents.bpmn" />
+    <EmbeddedResource Include="Resources\diagramParseTest_SendTaskEvents.bpmn" />
+    <EmbeddedResource Include="Resources\diagramParseTest_StartAndEndEventsAndSendTask.bpmn" />
+    <EmbeddedResource Include="Resources\diagramParseTest_StartAndEndEvents.bpmn" />
+    <EmbeddedResource Include="Resources\diagramParseTest_StartEvent.bpmn" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SatelittiBpms.ApiGatewayManagementApi\SatelittiBpms.ApiGatewayManagementApi.csproj" />
+    <ProjectReference Include="..\SatelittiBpms.Services\SatelittiBpms.Services.csproj" />
+    <ProjectReference Include="..\SatelittiBpms.Workflow\SatelittiBpms.Workflow.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

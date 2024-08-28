@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:satelitti="http://selbetti/schema/bpmn/satelitti" id="sample-diagram" targetNamespace="http://bpmn.io/schema/bpmn" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
+  <bpmn2:process id="Process_1" isExecutable="false">
+    <bpmn2:startEvent id="StartEvent_1" name="Inicio">
+      <bpmn2:outgoing>Flow_0kygsgj</bpmn2:outgoing>
+    </bpmn2:startEvent>
+    <bpmn2:userTask id="Activity_14tq3bf" name="Atv1" satelitti:executorType="1">
+      <bpmn2:extensionElements>
+        <satelitti:taskOptions>
+          <satelitti:taskOption description="Solicitar" />
+        </satelitti:taskOptions>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>Flow_0kygsgj</bpmn2:incoming>
+      <bpmn2:outgoing>Flow_08sniww</bpmn2:outgoing>
+    </bpmn2:userTask>
+    <bpmn2:sequenceFlow id="Flow_0kygsgj" sourceRef="StartEvent_1" targetRef="Activity_14tq3bf" />
+    <bpmn2:userTask id="Activity_0z4exk4" name="Atv2" satelitti:executorType="2" satelitti:executorId="1">
+      <bpmn2:extensionElements>
+        <satelitti:taskOptions>
+          <satelitti:taskOption description="Aprovar" />
+          <satelitti:taskOption description="Reprovar" />
+        </satelitti:taskOptions>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>Flow_08sniww</bpmn2:incoming>
+      <bpmn2:outgoing>Flow_122rusw</bpmn2:outgoing>
+    </bpmn2:userTask>
+    <bpmn2:sequenceFlow id="Flow_08sniww" sourceRef="Activity_14tq3bf" targetRef="Activity_0z4exk4" />
+    <bpmn2:sendTask id="Activity_0wpxjeg" name="Atv3" satelitti:message="Assunto teste 1" satelitti:destinataryType="1" satelitti:titleMessage="E-mail1">
+      <bpmn2:incoming>Flow_122rusw</bpmn2:incoming>
+      <bpmn2:outgoing>Flow_0q5ahzz</bpmn2:outgoing>
+    </bpmn2:sendTask>
+    <bpmn2:userTask id="Activity_14tdsff" name="Atv5" satelitti:executorType="1">
+      <bpmn2:extensionElements>
+        <satelitti:taskOptions>
+          <satelitti:taskOption description="Solicitar" />
+        </satelitti:taskOptions>
+      </bpmn2:extensionElements>
+      <bpmn2:outgoing>Flow_08sniw3</bpmn2:outgoing>
+    </bpmn2:userTask>
+    <bpmn2:sequenceFlow id="Flow_122rusw" sourceRef="Activity_0z4exk4" targetRef="Activity_0wpxjeg" />
+    <bpmn2:sendTask id="Activity_0uuck5l" name="Atv4" satelitti:message="Email teste aprovador" satelitti:destinataryType="2" satelitti:destinataryId="1" satelitti:titleMessage="Email2">
+      <bpmn2:incoming>Flow_0q5ahzz</bpmn2:incoming>
+      <bpmn2:outgoing>Flow_047b7ly</bpmn2:outgoing>
+    </bpmn2:sendTask>
+    <bpmn2:sequenceFlow id="Flow_0q5ahzz" sourceRef="Activity_0wpxjeg" targetRef="Activity_0uuck5l" />
+    <bpmn2:endEvent id="Event_0su4wlb" name="Fim">
+      <bpmn2:incoming>Flow_047b7ly</bpmn2:incoming>
+    </bpmn2:endEvent>
+    <bpmn2:sequenceFlow id="Flow_047b7ly" sourceRef="Activity_0uuck5l" targetRef="Event_0su4wlb" />
+  </bpmn2:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1">
+      <bpmndi:BPMNEdge id="Flow_0kygsgj_di" bpmnElement="Flow_0kygsgj">
+        <di:waypoint x="448" y="258" />
+        <di:waypoint x="500" y="258" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_08sniww_di" bpmnElement="Flow_08sniww">
+        <di:waypoint x="600" y="258" />
+        <di:waypoint x="660" y="258" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_122rusw_di" bpmnElement="Flow_122rusw">
+        <di:waypoint x="760" y="258" />
+        <di:waypoint x="820" y="258" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0q5ahzz_di" bpmnElement="Flow_0q5ahzz">
+        <di:waypoint x="920" y="258" />
+        <di:waypoint x="980" y="258" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_047b7ly_di" bpmnElement="Flow_047b7ly">
+        <di:waypoint x="1080" y="258" />
+        <di:waypoint x="1142" y="258" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="412" y="240" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="418" y="283" width="24" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_14tq3bf_di" bpmnElement="Activity_14tq3bf">
+        <dc:Bounds x="500" y="218" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0z4exk4_di" bpmnElement="Activity_0z4exk4">
+        <dc:Bounds x="660" y="218" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0wpxjeg_di" bpmnElement="Activity_0wpxjeg">
+        <dc:Bounds x="820" y="218" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0uuck5l_di" bpmnElement="Activity_0uuck5l">
+        <dc:Bounds x="980" y="218" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0su4wlb_di" bpmnElement="Event_0su4wlb">
+        <dc:Bounds x="1142" y="240" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1152" y="283" width="16" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn2:definitions>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL"
+	xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+	xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+	xmlns:satelitti="http://selbetti/schema/bpmn/satelitti"
+	xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="sample-diagram" targetNamespace="http://bpmn.io/schema/bpmn" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
+  <bpmn2:collaboration id="Collaboration_1">
+    <bpmn2:participant id="Participant_1" processRef="Process_1" />
+  </bpmn2:collaboration>
+  <bpmn2:process id="Process_1" isExecutable="false">
+    <bpmn2:sequenceFlow id="Flow_0c374xq" sourceRef="StartEvent_1" targetRef="Activity_0fz5eo6" />
+    <bpmn2:sequenceFlow id="Flow_0692abg" sourceRef="Activity_0ychgm5" targetRef="Event_1dln05u" />
+    <bpmn2:startEvent id="StartEvent_1">
+      <bpmn2:outgoing>Flow_0c374xq</bpmn2:outgoing>
+    </bpmn2:startEvent>
+    <bpmn2:userTask id="Activity_0fz5eo6" name="Tarefa 1" satelitti:executorType="1">
+      <bpmn2:extensionElements>
+        <satelitti:taskOptions>
+          <satelitti:taskOption description="1" />
+        </satelitti:taskOptions>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>Flow_0c374xq</bpmn2:incoming>
+      <bpmn2:outgoing>Flow_1o3b3oq</bpmn2:outgoing>
+    </bpmn2:userTask>
+    <bpmn2:userTask id="Activity_0ychgm5" name="Tarefa 3" satelitti:executorType="1">
+      <bpmn2:extensionElements>
+        <satelitti:taskOptions>
+          <satelitti:taskOption description="3" />
+        </satelitti:taskOptions>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>Flow_00jhv2k</bpmn2:incoming>
+      <bpmn2:outgoing>Flow_0692abg</bpmn2:outgoing>
+    </bpmn2:userTask>
+    <bpmn2:sequenceFlow id="Flow_199sz3b" sourceRef="Activity_07vvxk9" targetRef="Event_1dln05u" />
+    <bpmn2:sequenceFlow id="Flow_1o3b3oq" sourceRef="Activity_0fz5eo6" targetRef="Activity_07vvxk9" />
+    <bpmn2:sequenceFlow id="Flow_00jhv2k" sourceRef="Activity_07vvxk9" targetRef="Activity_0ychgm5" />
+    <bpmn2:sendTask id="Activity_07vvxk9" name="Tarefa 4" satelitti:message="Teste 2&#10;" satelitti:destinataryType="1" satelitti:titleMessage="Teste">
+      <bpmn2:incoming>Flow_1o3b3oq</bpmn2:incoming>
+      <bpmn2:outgoing>Flow_199sz3b</bpmn2:outgoing>
+      <bpmn2:outgoing>Flow_00jhv2k</bpmn2:outgoing>
+    </bpmn2:sendTask>
+    <bpmn2:endEvent id="Event_1dln05u">
+      <bpmn2:incoming>Flow_0692abg</bpmn2:incoming>
+      <bpmn2:incoming>Flow_199sz3b</bpmn2:incoming>
+    </bpmn2:endEvent>
+  </bpmn2:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1">
+      <bpmndi:BPMNShape id="Participant_2" bpmnElement="Participant_1" isHorizontal="true">
+        <dc:Bounds x="310" y="160" width="540" height="260" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0c374xq_di" bpmnElement="Flow_0c374xq">
+        <di:waypoint x="418" y="240" />
+        <di:waypoint x="450" y="240" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0692abg_di" bpmnElement="Flow_0692abg">
+        <di:waypoint x="760" y="300" />
+        <di:waypoint x="760" y="258" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_199sz3b_di" bpmnElement="Flow_199sz3b">
+        <di:waypoint x="680" y="240" />
+        <di:waypoint x="742" y="240" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1o3b3oq_di" bpmnElement="Flow_1o3b3oq">
+        <di:waypoint x="550" y="240" />
+        <di:waypoint x="580" y="240" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_00jhv2k_di" bpmnElement="Flow_00jhv2k">
+        <di:waypoint x="630" y="280" />
+        <di:waypoint x="630" y="340" />
+        <di:waypoint x="710" y="340" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="382" y="222" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0fz5eo6_di" bpmnElement="Activity_0fz5eo6">
+        <dc:Bounds x="450" y="200" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0ychgm5_di" bpmnElement="Activity_0ychgm5">
+        <dc:Bounds x="710" y="300" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_07vvxk9_di" bpmnElement="Activity_07vvxk9">
+        <dc:Bounds x="580" y="200" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1dln05u_di" bpmnElement="Event_1dln05u">
+        <dc:Bounds x="742" y="222" width="36" height="36" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn2:definitions>

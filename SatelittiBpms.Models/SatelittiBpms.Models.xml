@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SatelittiBpms.Models</name>
+    </assembly>
+    <members>
+        <member name="T:SatelittiBpms.Models.Integration.Signer.LanguageEnum">
+            <summary>
+            Languages:
+            - 1: Portuguese
+            - 2: English
+            - 3: Spanish
+            </summary>
+        </member>
+        <member name="T:SatelittiBpms.Models.Integration.Signer.ReminderFrequencyEnum">
+            <summary> 
+            Reminder frequency: 
+            - 1: Do not send 
+            - 2: Every single day 
+            - 3: Every 2 days 
+            - 4: Every 4 days 
+            - 5: Every 7 days 
+            </summary> 
+        </member>
+        <member name="T:SatelittiBpms.Models.Integration.Signer.SignatureTypeEnum">
+            <summary> 
+            Signature type: 
+            - 0: Eletronic or Digital 
+            - 1: Digital 
+            - 2: Eletronic 
+            - 3: Inperson 
+            </summary> 
+        </member>
+        <member name="T:SatelittiBpms.Models.Integration.Signer.SubscriberTypeEnum">
+            <summary> 
+            Signer type: 
+            - 0: Signatory 
+            - 1: Witness 
+            - 2: Authorizer 
+            </summary> 
+        </member>
+    </members>
+</doc>
